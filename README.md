@@ -1,2 +1,1 @@
-# vegan_multiplayer_quiz_game
-Vegan Multiplayer Quiz Game
+VEGAN MULTIPLAYER QUIZ GAME
