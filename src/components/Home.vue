@@ -5,7 +5,7 @@
 
 
       <div class="mult">
-        <h1>Boost you Veganism Activism Skills</h1>
+        <h1>Boost you Vegan Activism Skills</h1>
       </div>
 
       <div class="faq">
@@ -13,14 +13,9 @@
       </div>
 
       <div class="destroy">
-       <p>Rise Above | Destroy Meat Eaters! </p>
+       <p>RESPOND TO NON-VEGAN EXCUSES </p>
       </div>
-        <!-- <h1>Vegan Multiplayer Quiz Game</h1>
-         <p>Boost you Activism Skill</p>
-        <p>Will Help You Answer FAQ about Veganism</p>
-        <p>Destroy Meat Eaters! </p>
-        <p>Test your knowledge of Veganism</p>
-         <h1> Let us play!</h1> -->
+
       <div class="divOfsecondPlayerLink">
         <p class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></p>
         <p>You are Team A</p>
@@ -28,6 +23,22 @@
 
       </div>
       </div>
+
+      <section class="slideshow">
+  <div class="slideshow-container slide">
+    <img src="https://ih0.redbubble.net/image.171782564.8102/flat,550x550,075,f.u2.jpg" class="image-slide"/>
+    <div class="text-container">
+      <p class="sliderP"> George Bernard Shaw Said “Animals Are My Friends and I Don’t Eat My Friends”</p>
+    </div>
+    <img src="https://static.wixstatic.com/media/8c3fd4_e4f0cc37144f4bd2bf71ea602b47dd84~mv2.png/v1/fill/w_617,h_345,al_c,usm_0.66_1.00_0.01/8c3fd4_e4f0cc37144f4bd2bf71ea602b47dd84~mv2.png" class="image-slide"/>
+
+    <img src="http://placeimg.com/625/225/animals" class="image-slide"/>
+
+    <img src="http://thesavemovement.org/wp-content/uploads/2017/03/save-movement-banner3_1200w.jpg" class="image-slide"/>
+  </div>
+</section>
+
+
     </div>
     <div class="play" v-if="secondplayer">
       <div>
@@ -40,13 +51,13 @@
             <div class="column is-half left">
               <!-- <p class="title">User 1</p> -->
               <p class="title">Team A (The Cute Piglets)</p>
-            <img src="https://vignette.wikia.nocookie.net/whatever-you-want/images/b/b3/Cute_Piglets_Pictures_10.jpg/revision/latest?cb=20130803212429" alt="Cheetah!" width="100" height="50">
+            <img src="https://vignette.wikia.nocookie.net/whatever-you-want/images/b/b3/Cute_Piglets_Pictures_10.jpg/revision/latest?cb=20130803212429" id="teamimage1" alt="Cheetah!" width="100" height="50">
               <p class="subtitle">Total Score: {{playerdata.one.score}}</p>
             </div>
             <div v-if="secondplayer" class="column is-half right">
               <!-- <p class="title">User 2</p> -->
               <p class="title">Team B (The Bunny Rabbits)</p>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcm_WjM6-Hst7RtYWmqXh9dWo2C3Cw4IOJ4fP0oUOX8_ICVkshkg" alt="Cheetah!" width="100" height="50">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcm_WjM6-Hst7RtYWmqXh9dWo2C3Cw4IOJ4fP0oUOX8_ICVkshkg" id="teamimage2"alt="Cheetah!" width="100" height="50">
               <p class="subtitle">Total Score: {{playerdata.two.score}}</p>
             </div>
           </div>
@@ -118,11 +129,7 @@
       options: [{name: 'Vegan 2017', correct: false}, {name: 'Game Chagers', correct: false}, {name: 'Lucid', correct: false}, {name: 'What the Heath', correct: true}],
       answer: 'What the heath'
     },
-    {
-      lyric: 'Why Vegatarin is not Enoght',
-      options: [{name: 'That is correct', correct: false}, {name: 'Calf sufer because of us drinking milk', correct: false}, {name: 'Not your Mum, Not you Milk', correct: false}, {name: 'Laurens', correct: true}],
-      answer: 'Calf sufer because of us drinking milk'
-    },
+
     {
       lyric: 'In their ability to suffer, non-human animal are the same as us, they seek comfort, they seek safety and the seek _____',
       options: [{name: 'life free from pain', correct: true}, {name: 'Water', correct: false}, {name: 'More Food', correct: false}, {name: 'long life', correct: false}],
@@ -190,16 +197,132 @@
       answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
     },
     {
-      lyric: 'What we do to Animals is:',
-      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'the exploitation of the weak by the strong', correct: true}],
-      answer: 'the exploitation of the weak by the strong'
+      lyric: 'Animals are here for us but here :',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
     },
     {
       lyric: 'The question is not, Can they reason?, nor Can they talk? but, ______?',
       options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
       answer: 'Can they suffer'
+    },
+    {
+      lyric: 'What are Animals Factory Farms?',
+      options: [{name: 'Consentration camp for Animals ', correct: false}, {name: 'They are hell', correct: false}, {name: 'They not humane', correct: false}, {name: 'Intensive Animal Farming means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices', correct: true}],
+      answer: 'Intensive Animal Farming means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices'
+    },
+    {
+      lyric: 'Meat Eater:Why you use words like Holocaust, Murder, Rape?',
+      options: [{name: 'because you are Murderers', correct: false}, {name: 'because we are angry!', correct: false}, {name: 'I do not know!', correct: false}, {name: 'We call it like it is!', correct: true}],
+      answer: 'We call it like it is!'
+    },
+    {
+      lyric: 'In Anonymous for The Voiceless, cube of truth explaine to people why you here?',
+      options: [{name: 'We want to end meat consuption ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'We rising awaness of animal Agriculture cruely. We want poeple to know where thier meat comes from', correct: true}],
+      answer: 'We call it like it is!'
+    },
+
+    {
+      lyric: 'Can you love animals and eat them',
+      options: [{name: 'Consentration camp for Animals ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Nothing humane for killing someone that deos not want to die', correct: true}],
+      answer: 'We call it like it is!'
+    },
+    {
+      lyric: 'Eating animal products is my personal choice',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
+      answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
+    },
+    {
+      lyric: 'I like the taste and I couldn’t give it up',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
+    },
+    {
+      lyric: 'But other animals eat other animals',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'EWe need to eat animal products for nutrition',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
+      answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
+    },
+    {
+      lyric: 'It’s tradition/culture',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
+    },
+    {
+      lyric: 'Our ancestors ate animals/we evolved by eating animals',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'Animals would overrun us or go extinct',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'Human rights issues are more important',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
+      answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
+    },
+    {
+      lyric: 'Plants feel pain',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
+    },
+    {
+      lyric: "Animals don’t feel pain & don't suffer the same as we do",
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: "It's the food chain",
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
+    },
+    {
+      lyric: "We're more intelligent",
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'We’re doing animals a favour by giving them a life',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'Can’t we just improve the lives of animals?',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
+      answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
+    },
+    {
+      lyric: 'Morality is subjective',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
+    },
+    {
+      lyric: 'Everything in moderation',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'What if you were stranded on a desert island?',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
+      answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
+    },
+    {
+      lyric: 'Isn’t being vegetarian enough?',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
+    },
+    {
+      lyric: 'Hitler was a vegetarian/I once knew a vegan who wasn’t very nice',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
     }
-  ]
+]
   export default {
     name: 'home',
     data () {
@@ -517,6 +640,12 @@
 .subtitle{
   color:#0033cc;
 }
+#teamimage1{
+  border-radius: 10%;
+}
+#teamimage2{
+  border-radius: 10%;
+}
 img {
   border-radius: 50%;
 }
@@ -527,4 +656,103 @@ img {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+/*for the sider*/
+/*general styles*/
+
+body{padding: 3em;background-color: #ccc;}
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+/*slideshow styles*/
+
+.slideshow {
+  width: 625px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: hidden;
+}
+
+.slideshow-container {
+  width: 2500px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 225px;
+}
+
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+.image-slide, .text-container {
+  width: 625px;
+  height: auto;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+.text-container {
+  height: 250px;
+  position: relative;
+}
+
+
+.sliderP {
+  position: relative;
+  top: -45%;
+  padding: 5px;
+}
+
+.slide {
+  animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  12.5% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  37.5% {
+    transform: translateX(-25%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  62.5% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-75%);
+  }
+
+  87.5% {
+    transform: translateX(-75%);
+  }
+
+  99% {
+    transform: translateX(-75%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sliderP {
+  margin-top: 10px;
+  text-align: center;
+}
+
 </style>

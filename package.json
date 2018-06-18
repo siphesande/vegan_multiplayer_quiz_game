@@ -1,8 +1,8 @@
 {
   "name": "pusher-firebasehosting",
   "version": "1.0.0",
-  "description": "Vegan Multiplayer Quiz Game",
-  "author": " ",
+  "description": "A Vue.js app to demontrate Static pages with realtime features using Pusher and Firebase Hosting",
+  "author": "Yomi Eluwande <iamlese@yahoo.com>",
   "private": true,
   "scripts": {
     "dev": "nodemon server.js & node build/dev-server.js",

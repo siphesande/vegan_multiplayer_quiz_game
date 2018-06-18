@@ -5,7 +5,9 @@
 
   <!-- Centered link -->
   <div class="topnav-centered">
-    <a href="#home" class="active"><router-link to="/">Vegan Multiplayer Quiz Game</router-link></a>
+    <!-- <a href="#home" class="active"><router-link to="/">Vegan Multiplayer Quiz Game</router-link></a> -->
+    <a class="active">Vegan Multiplayer Quiz Game</a>
+
   </div>
 
   <!-- Left-aligned links (default) -->

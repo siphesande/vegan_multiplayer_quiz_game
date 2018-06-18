@@ -105,6 +105,14 @@
   });
 });
 
+if(documentary.getElementById('secondplayerplay')){
+  document.getElementByName('containerT').hidden;
+  document.getElementByName('containerT').diabled = true;
+}else{
+  document.getElementByName('containerT'.).diabled= false;
+}
+////////////////
+
   </script>
 
   <style>
@@ -114,12 +122,13 @@
 }
 
 body {
+ /*background-image: url("/static/cows-in-field.jpg");
+ background-position: center;*/
 
  font-family: Roboto, sans-serif;
 }
 .footer {
- padding-bottom:0.0em;
- padding-bottom: 0.0em;
+ padding-bottom: 0.6em;
  color: white;
  font-style: italic;
  font-weight: 60;

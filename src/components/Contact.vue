@@ -20,3 +20,11 @@ export default {
   name: 'Contact'
 }
 </script>
+<style>
+.contact {
+ background-image: url("/static/cows-in-field.jpg");
+ background-position: center;
+
+ font-family: Roboto, sans-serif;
+}
+</style>
