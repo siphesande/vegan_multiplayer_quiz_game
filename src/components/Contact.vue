@@ -26,5 +26,7 @@ export default {
  background-position: center;
 
  font-family: Roboto, sans-serif;
+ padding-bottom: 500px;
+
 }
 </style>

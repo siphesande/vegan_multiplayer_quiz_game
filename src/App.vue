@@ -7,7 +7,7 @@
   <div class="topnav-centered">
     <!-- <a href="#home" class="active"><router-link to="/">Vegan Multiplayer Quiz Game</router-link></a> -->
     <a class="active">Vegan Multiplayer Quiz Game</a>
-
+         <p><em>We Will Play Together</em></p>
   </div>
 
   <!-- Left-aligned links (default) -->
@@ -37,16 +37,16 @@ export default {
   html {
     background: #7fd4d3;
   }
-  body {
-    background: #7fd4d3;
-    padding: 20px;
-  }
+
   #app {
-    height: 100vh;
+    /*height: 140vh;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #fff;
+    max-height: 900px;
+    /*float: centre;*/
+
   }
   .fade-enter-active, .fade-leave-active {
     transition: opacity .5s
@@ -90,6 +90,21 @@ export default {
   .topnav-right {
     float: right;
   }
+  /*resposive id app*/
+
+  /*@media only screen and (min-width: 420px) {
+    #app {
+      width: 100%;
+
+
+    }
+  }*/
+  @media only screen and (max-width: 600px) {
+    #app {
+        background-color: lightblue;
+    }
+}
+
 
   /* Responsive navigation menu (for mobile devices) */
   @media screen and (max-width: 600px) {

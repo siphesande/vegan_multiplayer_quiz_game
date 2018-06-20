@@ -5,31 +5,34 @@
 
 
       <div class="mult">
-        <h1>Boost you Vegan Activism Skills</h1>
+        <h3>Test your Veganism Knowlegde with Quiz Game</h3>
       </div>
 
       <div class="faq">
-        <p>Will Help You Answer FAQ about Veganism</p>
+        <h2>"Compete" with your friends/vegans verywhere they are in the world</h2>
       </div>
 
       <div class="destroy">
-       <p>RESPOND TO NON-VEGAN EXCUSES </p>
+       <h3>Will HELP YOU KNOW HOW TO RESPOND TO NON-VEGAN EXCUSES </h3>
       </div>
 
       <div class="divOfsecondPlayerLink">
         <p class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></p>
-        <p>You are Team A</p>
+
         <p>And Game will start automatically</p>
+          <p>You are Team A</p>
 
       </div>
       </div>
 
-      <section class="slideshow">
+<section class="slideshow">
   <div class="slideshow-container slide">
     <img src="https://ih0.redbubble.net/image.171782564.8102/flat,550x550,075,f.u2.jpg" class="image-slide"/>
-    <div class="text-container">
+
+    <!-- <div class="text-container">
+
       <p class="sliderP"> George Bernard Shaw Said “Animals Are My Friends and I Don’t Eat My Friends”</p>
-    </div>
+    </div> -->
     <img src="https://static.wixstatic.com/media/8c3fd4_e4f0cc37144f4bd2bf71ea602b47dd84~mv2.png/v1/fill/w_617,h_345,al_c,usm_0.66_1.00_0.01/8c3fd4_e4f0cc37144f4bd2bf71ea602b47dd84~mv2.png" class="image-slide"/>
 
     <img src="http://placeimg.com/625/225/animals" class="image-slide"/>
@@ -43,20 +46,22 @@
     <div class="play" v-if="secondplayer">
       <div>
         <div class="container hamilton--header--text">
-          <div class="quizGame">
+          <!-- <div class="quizGame">
           <h1><em>We Will Play Together</em></h1>
-        </div>
+        </div> -->
             <!-- <p class="Rise"><em>We Will Rise Together</em></p> -->
           <div class="columns hamilton--inner">
             <div class="column is-half left">
               <!-- <p class="title">User 1</p> -->
-              <p class="title">Team A (The Cute Piglets)</p>
+              <p class="title">Team A</p>
+              <p>(The Cute Piglets)</p>
             <img src="https://vignette.wikia.nocookie.net/whatever-you-want/images/b/b3/Cute_Piglets_Pictures_10.jpg/revision/latest?cb=20130803212429" id="teamimage1" alt="Cheetah!" width="100" height="50">
               <p class="subtitle">Total Score: {{playerdata.one.score}}</p>
             </div>
             <div v-if="secondplayer" class="column is-half right">
               <!-- <p class="title">User 2</p> -->
-              <p class="title">Team B (The Bunny Rabbits)</p>
+              <p class="title">Team B </p>
+              <p>  (The Bunny Rabbits)</p>
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcm_WjM6-Hst7RtYWmqXh9dWo2C3Cw4IOJ4fP0oUOX8_ICVkshkg" id="teamimage2"alt="Cheetah!" width="100" height="50">
               <p class="subtitle">Total Score: {{playerdata.two.score}}</p>
             </div>
@@ -224,12 +229,12 @@
 
     {
       lyric: 'Can you love animals and eat them',
-      options: [{name: 'Consentration camp for Animals ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Nothing humane for killing someone that deos not want to die', correct: true}],
-      answer: 'We call it like it is!'
+      options: [{name: 'Consentration camp for Animals ', correct: false}, {name: 'No you can not!', correct: false}, {name: 'if you love animals then by default the last thing you would ever want is to see their murdered body parts on a plate in front of you.', correct: false}, {name: 'Nothing humane for killing someone that deos not want to die', correct: true}],
+      answer: 'if you love animals then by default the last thing you would ever want is to see their murdered body parts on a plate in front of you.'
     },
     {
       lyric: 'Eating animal products is my personal choice',
-      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
+      options: [{name: 'if someone makes the personal choice to abuse a dog, does that make it morally justifiable? ', correct: false}, {name: 'Respect my opinion', correct: false}, {name: 'chooses to be racist or a rapist actively chooses to commit rape.', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
       answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
     },
     {
@@ -321,7 +326,53 @@
       lyric: 'Hitler was a vegetarian/I once knew a vegan who wasn’t very nice',
       options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
       answer: 'Can they suffer'
+    },
+    {
+      lyric: 'W H A T  A B O U T  F A R M E R ‘ S J O B S ?',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'farmers can switch to arable farming and produce only plants', correct: true}],
+      answer: 'farmers can switch to arable farming and produce only plants'
+    },
+    {
+      lyric: 'I T ‘ S  T H E  C I R C L E  O F  L I F E',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'A N I M A L S  A R E  B R E D  F O R  A  P U R P O S E',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Is dog fighting therefore moral if the dogs were bred with the purpose to fight?', correct: true}],
+      answer: 'Is dog fighting therefore moral if the dogs were bred with the purpose to fight?'
+    },
+    {
+      lyric: 'S O Y A  F A R M I N G  I S  D E S T O R Y I N G  T H E  E N V I R O N M E N T',
+      options: [{name: 'you’re right, soya farming is destructive for the environment, but did you know that over 85% of the soya grown is fed to livestock animals? It’s because of animal agriculture that soya is currently so destructive. ', correct: true}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'you’re right, soya farming is destructive for the environment, but did you know that over 85% of the soya grown is fed to livestock animals? It’s because of animal agriculture that soya is currently so destructive.'
+    },
+    {
+      lyric: 'I T ‘ S E X T R E M E, E X P E N S I V E , D I F F I C U L T & R E S T R I C T I V E  T O  B E  V E G A N',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'W E ‘ R E  O M N I V O R E S  W I T H  C A N I N E  T E E T H',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'G O D  S A Y S  T H A T  W E  C A N  E A T  A N I M A L S',
+      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'if we don’t have to kill God’screatures do you not think a kind, compassionate, benevolent God would rather that we didn’t?.', correct: true}, {name: 'Can they reproduce', correct: false}],
+      answer: 'Can they suffer'
+    },
+    {
+      lyric: 'M Y  F R I E N D S  A N D  F A M I L Y  W O N ‘ T L I K E I T I F  I  G O  V E G A N',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc', correct: true}],
+      answer: 'Yes they are, like we are also rong killing pigs, cow, sheeps etc'
+    },
+    {
+      lyric: 'Morality is subjective',
+      options: [{name: 'Yes It can never be justified king pets ', correct: false}, {name: 'Cows', correct: false}, {name: 'Humans', correct: false}, {name: 'with us', correct: true}],
+      answer: 'with'
     }
+
 ]
   export default {
     name: 'home',
@@ -473,21 +524,28 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
   .home {
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     align-items: center;
     justify-content: center;
     height: 85vh;
     width: 100%;
+    margin-top: 1px;
+  }
+  transition {
+    position: fixed;
   }
   h1 {
     font-size: 3rem;
     font-weight: bold;
   }
+
   p {
     font-size: 1.5rem;
     margin: 0 0 20px 0;
   }
+
   .play--button {
     background-color: white;
     color: #7fd4d3;
@@ -552,20 +610,31 @@
     box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
   }
   .hamilton--header--text {
-    margin-top: 50px;
+    margin-top: 1px;
+    padding-top: 1px;
+
   }
   .hamilton--inner {
-    margin-top: 20px;
+    margin-top: 5px;
   }
   .hamilton--inner .left{
     text-align: left;
+    margin-top: 5px;
+    padding-top: 1px;
+
   }
   .hamilton--inner .right{
     text-align: right;
+    margin-top: 5px;
+    padding-top: 1px;
+
+
   }
   .title {
     font-weight: bold;
     color: #ff66cc;
+    padding-bottom:0px;
+    margin: 1px;
   }
   .Rise{
     color: #0066ff
@@ -573,6 +642,8 @@
   .hamilton--lyrics--text {
     width: 600px;
     margin: 0 auto;
+    margin-top: 1px;
+    padding-top: 4px;
   }
   .hamilton--lyrics--text p {
     font-weight: bold;
@@ -607,33 +678,34 @@
 
 .mult {
   background-color:#2196F3;
-  padding:20px;
+  padding:5px;
 
   width:100%; /* The width is 20%, by default */
 }
 
 .faq {
-  background-color:#ffff66;
-  padding:20px;
+  background-color:#666633;
+  padding:3px;
 
   width:100%; /* The width is 60%, by default */
 }
 
 .destroy {
   background-color:#ff0000;
-  padding:20px;
+  padding:5px;
 
   width:100%; /* The width is 20%, by default */
 }
 .divOfsecondPlayerLink {
   background-color:#99ff33;
   padding:20px;
-
+  /*height: 2px;*/
   width:100%; /* The width is 20%, by default */
 }
+
 .quizGame {
   background-color:#000000;
-  padding:20px;
+  padding:15px;
 
   width:100%; /* The width is 20%, by default */
 }
@@ -648,20 +720,110 @@
 }
 img {
   border-radius: 50%;
+  padding-top:1px;
 }
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
   .left, .main, .right {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width:50%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+
 }
+
+
+@media screen and (max-width:800px) {
+  .quizGame {
+
+    width:80%; /* The width is 20%, by default */
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .left,.main, .right {
+    width: 50%;
+    padding-top:1px;/* The width is 100%, when the viewport is 420px or smaller */
+
+
+  }
+  .right {
+    float: top;
+  }
+  .quizGame {
+
+    width:30%; /* The width is 20%, by default */
+  }
+  .image-slide{
+    width: 50%
+  }
+
+
+}
+@media screen and (max-width:420px) {
+  .left,.main .right {
+    width: 40%;
+    padding-top:1px; /* The width is 100%, when the viewport is 420px or smaller */
+    /*position: fixed;*/
+  }
+
+
+  .image-slide{
+     max-width:15%;
+    /*padding-right:-10px;
+    border-radius: 5%;
+    margin-right: 50px;*/
+
+  }
+  .slideshow {
+
+    /*max-width:100%;*/
+    overflow: hidden;
+    border: hidden;
+    position: fixed;
+  }
+  .slideshow-container {
+    max-width:100%;
+    font-size: 0;
+    transition: 0.1s ease;
+    /*height: 420px;*/
+  }
+  .sliderP {
+    /*position: relative;*/
+    top: -45%;
+    padding: 1px;
+    width: 50%;
+    margin-top: 90px;
+  }
+  .slide {
+    animation: slide 0.001s ease infinite;
+    /*max-width:100%;*/
+  }
+
+.divOfsecondPlayerLink {
+  background-color:#99ff33;
+  padding:0px;
+  height: 280px;
+  width:100%; /* The width is 20%, by default */
+}
+
+/*.text-container {
+  height: 50px;
+  margin-top: 80px;
+  /*position: absolute;*/
+
+
+
+
+
+}
+
 /*for the sider*/
 /*general styles*/
-
-body{padding: 3em;background-color: #ccc;}
+/*
+body{padding: 0em;background-color: #ccc;}
 html {box-sizing: border-box;}
-*, *:before, *:after {box-sizing: inherit;}
+*, *:before, *:after {box-sizing: inherit;}*/
 
 
 /*slideshow styles*/
@@ -677,7 +839,7 @@ html {box-sizing: border-box;}
   width: 2500px;
   font-size: 0;
   transition: 1s ease;
-  height: 225px;
+  height: 320px;
 }
 
 .slideshow-container:hover {

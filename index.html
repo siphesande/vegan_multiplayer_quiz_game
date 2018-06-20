@@ -16,200 +16,208 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
 
-    <!-- <div class="containerT">
-  <div class="timer">
-    <div class="clock"><span contenteditable="true" id="min">10</span><span>:</span><span contenteditable="true" id="sec">10</span>
-      <div class="indicators">Min&nbsp;&nbsp;:&nbsp;&nbsp;Sec</div>
-    </div>
 
-  </div>
-  <div class="controls">
-    <div class='stBtn'>Start</div>
-    <div class='refresh'>Reset</div>
-  </div>
 
-  <div class="footer" align="center">Click on the numbers of the timer to edit</div>
+    <div class="container">
+     <div class="timer">
+       <div class="clock"><span contenteditable="true" id="min">10</span><span>:</span><span contenteditable="true" id="sec">10</span>
+         <div class="indicators">Min&nbsp;&nbsp;:&nbsp;&nbsp;Sec</div>
+       </div>
 
- </div>
- <audio id="ado" src="http://static1.grsites.com/archive/sounds/musical/musical009.mp3" controls="true"></audio> -->
+     </div>
+     <div class="controls">
+       <div class='stBtn'>Start</div>
+       <div class='refresh'>Reset</div>
+     </div>
+
+   </div>
+
 
   </body>
 
 
   <script>
+
   $(document).ready(function() {
-  $('.stBtn').click(function() {
-    var btn = $('.stBtn');
-    var minutes = parseInt($('#min').html());
-    var seconds = parseInt($('#sec').html());
-    if (minutes + seconds === 0) {
-      btn.html('Start');
-      btn.removeClass('red');
-      alert('Please set the timer');
-      return;
-    }
-    if (isNaN(minutes)) {
-      $('#min').html('00');
-      minutes = 0;
-    }
-    if (minutes > 59) {
-      alert("Can't be used for more than 59 mins");
-      $('#min').html('00');
-      minutes = 0;
-      return;
-    }
-    if (isNaN(seconds)) {
-      $('#sec').html('00');
-      seconds = 1;
-      retrun;
-    }
-    var t = (minutes * 60) + (seconds);
-
-    function countdownTimer(t) {
-      var secLeft = Math.floor(t % 60);
-      var minLeft = Math.floor((t / 60) % 60);
-      var dispSeconds = '0' + secLeft;
-      var dispMinutes = '0' + minLeft;
-      $('#min').html(dispMinutes.slice(-2));
-      $('#sec').html(dispSeconds.slice(-2));
-    }
-	function reStart() {
-    	btn.html('Start');
+    $('.stBtn').click(function() {
+      var btn = $('.stBtn');
+      var minutes = parseInt($('#min').html());
+      var seconds = parseInt($('#sec').html());
+      if (minutes + seconds === 0) {
+        btn.html('Start');
         btn.removeClass('red');
-    	}
-    function updateTimer() {
-      t--;
-      countdownTimer(t);
-      if (t <= 0) {
-        clearInterval(interval);
-        $('#ado').get(0).play();
-        reStart();
+        alert('Please set the timer');
+        return;
       }
-    }
-    if (btn.html() == "Stop") {
-      clearInterval(interval);
-      reStart();
-    } else {
-      window.interval = setInterval(updateTimer, 1000);
-      btn.html('Stop');
-      btn.addClass('red');
-    }
-  });
+      if (isNaN(minutes)) {
+        $('#min').html('00');
+        minutes = 0;
+      }
+      if (minutes > 59) {
+        alert("Can't be used for more than 59 mins");
+        $('#min').html('00');
+        minutes = 0;
+        return;
+      }
+      if (isNaN(seconds)) {
+        $('#sec').html('00');
+        seconds = 1;
+        retrun;
+      }
+      var t = (minutes * 60) + (seconds);
 
-  $('.refresh').click(function() {
-		clearInterval(interval);
-    $('#min').html('00');
-    $('#sec').html('00');
-		$('.stBtn').html('Start');
-    $('.stBtn').removeClass('red');
-  });
-});
+      function countdownTimer(t) {
+        var secLeft = Math.floor(t % 60);
+        var minLeft = Math.floor((t / 60) % 60);
+        var dispSeconds = '0' + secLeft;
+        var dispMinutes = '0' + minLeft;
+        $('#min').html(dispMinutes.slice(-2));
+        $('#sec').html(dispSeconds.slice(-2));
+      }
+  	function reStart() {
+      	btn.html('Start');
+          btn.removeClass('red');
+      	}
+      function updateTimer() {
+        t--;
+        countdownTimer(t);
+        if (t <= 0) {
+          clearInterval(interval);
+          $('#ado').get(0).play();
+          reStart();
+        }
+      }
+      if (btn.html() == "Stop") {
+        clearInterval(interval);
+        reStart();
+      } else {
+        window.interval = setInterval(updateTimer, 1000);
+        btn.html('Stop');
+        btn.addClass('red');
+      }
+    });
 
-if(documentary.getElementById('secondplayerplay')){
-  document.getElementByName('containerT').hidden;
-  document.getElementByName('containerT').diabled = true;
-}else{
-  document.getElementByName('containerT'.).diabled= false;
-}
-////////////////
+    $('.refresh').click(function() {
+  		clearInterval(interval);
+      $('#min').html('00');
+      $('#sec').html('00');
+  		$('.stBtn').html('Start');
+      $('.stBtn').removeClass('red');
+    });
+  });
 
   </script>
 
   <style>
-  {
- margin: 0;
- padding: 0;
-}
 
-body {
- /*background-image: url("/static/cows-in-field.jpg");
- background-position: center;*/
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
- font-family: Roboto, sans-serif;
-}
-.footer {
- padding-bottom: 0.6em;
- color: white;
- font-style: italic;
- font-weight: 60;
-}
-.containerT {
- display: flex;
- height: 10%;
- width: 100%;
- padding-top: 0.1vh;
- background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #b3ffe6;
- background-blend-mode: multiply, multiply;
-}
+  body {
+    background: #7fd4d3;
+    padding: 1.5px;
 
-.timer {
- min-height: 60px;
- width: 50vw;
- margin: auto;
- background-color: white;
- box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.6);
- display: flex;
-}
+    font-family: Roboto, sans-serif;
+    position: sticky;
+    height: 1500px;
+    padding-bottom: 1000px;
 
-span {
- font-size: 8em;
-}
+  }
 
-.clock {
- margin: auto;
-}
 
-.indicators {
- font-size: 1.2em;
- text-align: center;
- font-weight: 100;
-}
 
-.stBtn {
- text-align: center;
- font-size: 2em;
- width: 150px;
- height: 60px;
- line-height: 60px;
- background-color: aquamarine;
- margin-top: 0.5em;
- margin-bottom: 0.2em;
- margin-right: 0.2em;
- border-radius: 12px;
- cursor: pointer;
-}
+  .container {
+    height: 70%;
+    width: 100%;
+    padding-top: 10vh;
 
-.refresh {
- text-align: center;
- font-size: 2em;
- width: 150px;
- height: 60px;
- line-height: 60px;
- background-color: aquamarine;
- margin-top: 0.5em;
- margin-bottom: 0.2em;
- border-radius: 12px;
- cursor: pointer;
-}
 
-.controls {
- display: flex;
- justify-content: center;
-}
 
-.red {
- background-color: red;
-}
+  }
 
-#ado {
- display: none;
-}
+  .timer {
+    min-height: 150px;
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.6);
+    display: flex;
+  }
 
-@media only screen and (min-width: 420px) {
- .timer {
-   width: 400px;
- }
-}
+  span {
+    font-size: 7em;
+  }
+
+  .clock {
+    margin: auto;
+  }
+
+  .indicators {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .stBtn {
+    text-align: center;
+    font-size: 2em;
+    width: 140px;
+    height: 60px;
+    line-height: 70px;
+    background-color: aquamarine;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .refresh {
+    text-align: center;
+    font-size: 2em;
+    width: 150px;
+    height: 60px;
+    line-height: 70px;
+    background-color: aquamarine;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 11px;
+    cursor: pointer;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  #ado {
+    display: none;
+  }
+
+
+
+  @media only screen and (min-width: 420px) {
+    .timer {
+      width: 300px;
+
+    }
+    .container {
+      height: 70%;
+      width: 80%;
+      padding-bottom: -10px;
+      padding-top: 300px;
+
+
+
+    }
+  }
 
 
   </style>
