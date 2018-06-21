@@ -528,14 +528,14 @@
   .home {
     /*padding-top: 20px;*/
     align-items: center;
-    justify-content: center;
-    height: 85vh;
+    /*justify-content: center;*/
+    /*height: 85vh;*/
     width: 100%;
     margin-top: 1px;
   }
-  transition {
+  /*transition {
     position: fixed;
-  }
+  }*/
   h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -615,18 +615,28 @@
 
   }
   .hamilton--inner {
-    margin-top: 5px;
+    margin-top: 2px;
+    overflow:scroll;
+    white-space:nowrap;
+    text-wrap:no-wrap;
+
+    /*margin: auto;*/
+    /*display: block;*/
+
   }
   .hamilton--inner .left{
+    display:inline-block;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 1px;
     padding-top: 1px;
+
 
   }
   .hamilton--inner .right{
+    display:inline-block;
     text-align: right;
-    margin-top: 5px;
-    padding-top: 1px;
+    margin-top: 1px;
+    padding-top: 0px;
 
 
   }
@@ -724,12 +734,10 @@ img {
 }
 
 /* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
+/*@media screen and (max-width:800px) {
   .left, .main, .right {
     width:50%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
 
-}
 
 
 @media screen and (max-width:800px) {
@@ -740,33 +748,15 @@ img {
 
 }
 
-@media screen and (max-width:600px) {
-  .left,.main, .right {
-    width: 50%;
-    padding-top:1px;/* The width is 100%, when the viewport is 420px or smaller */
 
-
-  }
-  .right {
-    float: top;
-  }
-  .quizGame {
-
-    width:30%; /* The width is 20%, by default */
-  }
-  .image-slide{
-    width: 50%
-  }
-
-
-}
 @media screen and (max-width:420px) {
-  .left,.main .right {
-    width: 40%;
-    padding-top:1px; /* The width is 100%, when the viewport is 420px or smaller */
-    /*position: fixed;*/
-  }
 
+
+
+  .mult{
+    margin-top: 0px;
+
+  }
 
   .image-slide{
      max-width:15%;

@@ -10,101 +10,88 @@
     <meta name="description" content="Test your knowledge of Veganism">
     <title>Vegan Multiplayer Quiz Game</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+    <link rel="icon" href="https://www.iconspng.com/images/vegan-logo/vegan-logo.jpg">
   </head>
   <body>
 
     <div id="app"></div>
     <!-- built files will be auto injected -->
 
-
-
-    <div class="container">
-     <div class="timer">
-       <div class="clock"><span contenteditable="true" id="min">10</span><span>:</span><span contenteditable="true" id="sec">10</span>
-         <div class="indicators">Min&nbsp;&nbsp;:&nbsp;&nbsp;Sec</div>
-       </div>
-
-     </div>
-     <div class="controls">
-       <div class='stBtn'>Start</div>
-       <div class='refresh'>Reset</div>
-     </div>
-
-   </div>
-
+<!-- <div class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</div>
+</div> -->
 
   </body>
 
 
   <script>
 
-  $(document).ready(function() {
-    $('.stBtn').click(function() {
-      var btn = $('.stBtn');
-      var minutes = parseInt($('#min').html());
-      var seconds = parseInt($('#sec').html());
-      if (minutes + seconds === 0) {
-        btn.html('Start');
-        btn.removeClass('red');
-        alert('Please set the timer');
-        return;
-      }
-      if (isNaN(minutes)) {
-        $('#min').html('00');
-        minutes = 0;
-      }
-      if (minutes > 59) {
-        alert("Can't be used for more than 59 mins");
-        $('#min').html('00');
-        minutes = 0;
-        return;
-      }
-      if (isNaN(seconds)) {
-        $('#sec').html('00');
-        seconds = 1;
-        retrun;
-      }
-      var t = (minutes * 60) + (seconds);
-
-      function countdownTimer(t) {
-        var secLeft = Math.floor(t % 60);
-        var minLeft = Math.floor((t / 60) % 60);
-        var dispSeconds = '0' + secLeft;
-        var dispMinutes = '0' + minLeft;
-        $('#min').html(dispMinutes.slice(-2));
-        $('#sec').html(dispSeconds.slice(-2));
-      }
-  	function reStart() {
-      	btn.html('Start');
-          btn.removeClass('red');
-      	}
-      function updateTimer() {
-        t--;
-        countdownTimer(t);
-        if (t <= 0) {
-          clearInterval(interval);
-          $('#ado').get(0).play();
-          reStart();
-        }
-      }
-      if (btn.html() == "Stop") {
-        clearInterval(interval);
-        reStart();
-      } else {
-        window.interval = setInterval(updateTimer, 1000);
-        btn.html('Stop');
-        btn.addClass('red');
-      }
-    });
-
-    $('.refresh').click(function() {
-  		clearInterval(interval);
-      $('#min').html('00');
-      $('#sec').html('00');
-  		$('.stBtn').html('Start');
-      $('.stBtn').removeClass('red');
-    });
-  });
+  // $(document).ready(function() {
+  //   $('.stBtn').click(function() {
+  //     var btn = $('.stBtn');
+  //     var minutes = parseInt($('#min').html());
+  //     var seconds = parseInt($('#sec').html());
+  //     if (minutes + seconds === 0) {
+  //       btn.html('Start');
+  //       btn.removeClass('red');
+  //       alert('Please set the timer');
+  //       return;
+  //     }
+  //     if (isNaN(minutes)) {
+  //       $('#min').html('00');
+  //       minutes = 0;
+  //     }
+  //     if (minutes > 59) {
+  //       alert("Can't be used for more than 59 mins");
+  //       $('#min').html('00');
+  //       minutes = 0;
+  //       return;
+  //     }
+  //     if (isNaN(seconds)) {
+  //       $('#sec').html('00');
+  //       seconds = 1;
+  //       retrun;
+  //     }
+  //     var t = (minutes * 60) + (seconds);
+  //
+  //     function countdownTimer(t) {
+  //       var secLeft = Math.floor(t % 60);
+  //       var minLeft = Math.floor((t / 60) % 60);
+  //       var dispSeconds = '0' + secLeft;
+  //       var dispMinutes = '0' + minLeft;
+  //       $('#min').html(dispMinutes.slice(-2));
+  //       $('#sec').html(dispSeconds.slice(-2));
+  //     }
+  // 	function reStart() {
+  //     	btn.html('Start');
+  //         btn.removeClass('red');
+  //     	}
+  //     function updateTimer() {
+  //       t--;
+  //       countdownTimer(t);
+  //       if (t <= 0) {
+  //         clearInterval(interval);
+  //         $('#ado').get(0).play();
+  //         reStart();
+  //       }
+  //     }
+  //     if (btn.html() == "Stop") {
+  //       clearInterval(interval);
+  //       reStart();
+  //     } else {
+  //       window.interval = setInterval(updateTimer, 1000);
+  //       btn.html('Stop');
+  //       btn.addClass('red');
+  //     }
+  //   });
+  //
+  //   $('.refresh').click(function() {
+  // 		clearInterval(interval);
+  //     $('#min').html('00');
+  //     $('#sec').html('00');
+  // 		$('.stBtn').html('Start');
+  //     $('.stBtn').removeClass('red');
+  //   });
+  // });
 
   </script>
 
@@ -118,92 +105,46 @@
 
   body {
     background: #7fd4d3;
-    padding: 1.5px;
+    padding: 0px;
+    margin: 0px;
 
     font-family: Roboto, sans-serif;
-    position: sticky;
-    height: 1500px;
-    padding-bottom: 1000px;
+    position:fixed;
+    height: 1000px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+
+
 
   }
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color: #efefef;
+    text-align: center;
+  }
 
-
-
+/*
   .container {
-    height: 70%;
-    width: 100%;
-    padding-top: 10vh;
+    height: 1px;
+    width: 90%;
+    margin-top:0;
+    /*padding-top: 10vh;*/
 
 
 
   }
 
-  .timer {
-    min-height: 150px;
-    width: 80vw;
-    margin: auto;
-    background-color: white;
-    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.6);
-    display: flex;
-  }
-
-  span {
-    font-size: 7em;
-  }
-
-  .clock {
-    margin: auto;
-  }
-
-  .indicators {
-    font-size: 1.2em;
-    text-align: center;
-    font-weight: 100;
-  }
-
-  .stBtn {
-    text-align: center;
-    font-size: 2em;
-    width: 140px;
-    height: 60px;
-    line-height: 70px;
-    background-color: aquamarine;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-right: 0.5em;
-    border-radius: 12px;
-    cursor: pointer;
-  }
-
-  .refresh {
-    text-align: center;
-    font-size: 2em;
-    width: 150px;
-    height: 60px;
-    line-height: 70px;
-    background-color: aquamarine;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    border-radius: 11px;
-    cursor: pointer;
-  }
-
-  .controls {
-    display: flex;
-    justify-content: center;
-  }
-
-  .red {
-    background-color: red;
-  }
-
-  #ado {
-    display: none;
-  }
 
 
 
-  @media only screen and (min-width: 420px) {
+
+  /*@media only screen and (min-width: 420px) {
     .timer {
       width: 300px;
 
@@ -217,7 +158,7 @@
 
 
     }
-  }
+  }*/
 
 
   </style>

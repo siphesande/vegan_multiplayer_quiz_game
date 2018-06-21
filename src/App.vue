@@ -33,10 +33,11 @@ export default {
 </script>
 
 
-<style>a
+<style>
+/*a
   html {
     background: #7fd4d3;
-  }
+  }*/
 
   #app {
     /*height: 140vh;*/
@@ -45,6 +46,7 @@ export default {
     text-align: center;
     color: #fff;
     max-height: 900px;
+    /*max-width: 100%;*/
     /*float: centre;*/
 
   }
@@ -92,18 +94,56 @@ export default {
   }
   /*resposive id app*/
 
-  /*@media only screen and (min-width: 420px) {
+  @media only screen and (min-width: 200px) {
     #app {
       width: 100%;
 
 
     }
-  }*/
-  @media only screen and (max-width: 600px) {
+   #topnav-right {
+     display:hidden;
+     padding: 0px;
+     margin-top:-10px;
+   }
+   #topnav {
+     display: ;
+     padding: 0;
+     max-height: 30px;
+   }
+   .topnav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 1px 3px;
+     text-decoration: none;
+     font-size: 17px;
+   }
+  }
+  @media only screen and (min-width: 420px) {
     #app {
-        background-color: lightblue;
+      width: 100%;
+
+
     }
-}
+   #topnav-right {
+     display:hidden;
+     padding: 0px;
+     margin-top:-10px;
+   }
+   #topnav {
+     display: ;
+     padding: 0;
+     max-height: 30px;
+   }
+   .topnav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 1px 3px;
+     text-decoration: none;
+     font-size: 17px;
+   }
+  }
 
 
   /* Responsive navigation menu (for mobile devices) */
@@ -119,5 +159,13 @@ export default {
       left: 0;
       transform: none;
     }
+    /*.topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 10px 11px;
+      text-decoration: none;
+      font-size: 17px;
+    }*/
   }
 </style>
