@@ -5,24 +5,25 @@
 
 
       <div class="mult">
-        <h3>Test your Veganism Knowlegde with Quiz Game</h3>
+        <li>Test your Veganism Knowlegde with Quiz Game</li>
       </div>
 
       <div class="faq">
-        <h2>"Compete" with your friends/vegans verywhere they are in the world</h2>
+        <li>Play with your friends/vegans verywhere they are in the world</li>
       </div>
 
       <div class="destroy">
-       <h3>Will HELP YOU KNOW HOW TO RESPOND TO NON-VEGAN EXCUSES </h3>
+       <li>RESPOND TO 30 NON-VEGAN EXCUSES</li>
       </div>
 
       <div class="divOfsecondPlayerLink">
-        <p class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></p>
+        <h3 class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></h3>
 
         <p>And Game will start automatically</p>
           <p>You are Team A</p>
 
       </div>
+
 
       </div>
 
@@ -712,21 +713,21 @@
 
 .mult {
   background-color:#2196F3;
-  padding:5px;
+  padding:4px;
 
   width:100%; /* The width is 20%, by default */
 }
 
 .faq {
   background-color:#666633;
-  padding:3px;
+  padding:2px;
 
   width:100%; /* The width is 60%, by default */
 }
 
 .destroy {
   background-color:#ff0000;
-  padding:5px;
+  padding:4px;
 
   width:100%; /* The width is 20%, by default */
 }
@@ -908,139 +909,12 @@ img {
     white-space:nowrap;
     text-wrap:no-wrap;*/
   }
-  /*.image-slide{
-     max-width:15%;
-    /*padding-right:-10px;
-    border-radius: 5%;
-    margin-right: 50px;*/
 
-  /*
-  .slideshow {
-
-    /
-    overflow: hidden;
-    border: hidden;
-    position: fixed;
-  }
-  .slideshow-container {
-    max-width:100%;
-    font-size: 0;
-    transition: 0.1s ease;
-
-  }
-  .sliderP {
-
-    top: -45%;
-    padding: 1px;
-    width: 50%;
-    margin-top: 90px;
-  }
-  .slide {
-    animation: slide 0.001s ease infinite;
-
-  }*/
 
 
 
 }
 
-/*for the sider*/
-/*general styles*/
-/*
-body{padding: 0em;background-color: #ccc;}
-html {box-sizing: border-box;}
-*, *:before, *:after {box-sizing: inherit;}*/
 
-
-/*slideshow styles*/
-
-/*.slideshow {
-  width: 625px;
-  margin: 0 auto;
-  overflow: hidden;
-  border: hidden;
-}
-
-.slideshow-container {
-  width: 2500px;
-  font-size: 0;
-  transition: 1s ease;
-  height: 320px;
-}
-
-.slideshow-container:hover {
-  animation-play-state: paused;
-}
-
-.image-slide, .text-container {
-  width: 625px;
-  height: auto;
-  display: inline-block;
-  font-size: 15px;
-  text-align: center;
-}
-
-.text-container {
-  height: 250px;
-  position: relative;
-}
-
-
-.sliderP {
-  position: relative;
-  top: -45%;
-  padding: 5px;
-}
-
-.slide {
-  animation: slide 10s ease infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0%);
-  }
-
-  12.5% {
-    transform: translateX(0%);
-  }
-
-  25% {
-    transform: translateX(-25%);
-  }
-
-  37.5% {
-    transform: translateX(-25%);
-  }
-
-  50% {
-    transform: translateX(-50%);
-  }
-
-  62.5% {
-    transform: translateX(-50%);
-  }
-
-  75% {
-    transform: translateX(-75%);
-  }
-
-  87.5% {
-    transform: translateX(-75%);
-  }
-
-  99% {
-    transform: translateX(-75%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.sliderP {
-  margin-top: 10px;
-  text-align: center;
-}*/
 
 </style>

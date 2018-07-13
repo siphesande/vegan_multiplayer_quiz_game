@@ -1,34 +1,49 @@
 <template>
   <div id="app">
-    <!-- Top navigation -->
-<div class="topnav">
 
-  <!-- Centered link -->
-  <div class="topnav-centered">
-    <!-- <a href="#home" class="active"><router-link to="/">Vegan Multiplayer Quiz Game</router-link></a> -->
-    <a class="active">Vegan Multiplayer Quiz Game</a>
-         <p><em>We Will Play Together</em></p>
+    <nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <button class="btn btn-info btn-lg" type="button" style="color:red">Vegan Multiplayer Quiz Game</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">About the game</button>
+  </form>
+</nav>
 
-  </div>
+<div class="modal fade" id="myModal" role="dialog">
+     <div class="modal-dialog">
 
-  <!-- Left-aligned links (default) -->
+       <!-- Modal content-->
+       <div class="modal-content">
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title" style="color:black">About the game</h4>
+         </div>
+         <div class="modal-body">
+           <p style="color:black">Vegan multiplayer quiz game is not just for fun. It is built to help vegans/plant based people to be able to test thier knowleged about veganism.
+           This guiz game will hellp you to answer FAQ about veganism. It will also help to  able respond to non-vegan 30 excuses for not going vegan
+           It very easy to play, all you have to is to select one of the options available. It is online, We want you to be able to play with your vegan sister
+           who is in Hong Kong while you are in South Africa. Most of the Questions are taken from Earthlings Ed e-book.</p>
+         </div>
+         <div class="modal-footer">
+            <p style="color:black">E-mail:vegancomputerprogrammer@gmail.com</p>
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         </div>
+       </div>
 
 
-  <a href="#about"><router-link to="/about">About the Game</router-link></a>
-  <!-- Right-aligned links -->
-  <div class="topnav-right">
-  <!-- <a href="#contact"><router-link to="/contact">Contact</router-link></a> -->
+   </div>
+
+ </div>
 
 
-  </div>
 
-</div>
 <div class="footer">
   <div class="thetime" >Time left = <span id="timer" style="color:red"></span></div>
-  <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a>
-  <a href="#" class="btn btn-info btn-sm">
-    <span class="glyphicon glyphicon-menu-left"></span> Back to Home
+  <!-- <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a> -->
+  <a href="/" class="btn btn-info btn-sm">
+    <span class="glyphicon glyphicon-home"></span>Home
   </a>
+
+
 
 </div>
 
@@ -72,48 +87,8 @@ export default {
     /*float: centre;*/
 
   }
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity .5s
-  }
-  .fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
-    opacity: 0
-  }
-  .topnav {
-    position: relative;
-    overflow: hidden;
-    background-color: #333;
-  }
 
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
 
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-
-  .topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .topnav-right {
-    float: right;
-  }
   /*resposive id app*/
 
   @media only screen and (min-width: 200px) {
@@ -122,72 +97,28 @@ export default {
 
 
     }
-   #topnav-right {
-     display:hidden;
-     padding: 0px;
-     margin-top:-10px;
-   }
-   #topnav {
-     display: ;
-     padding: 0;
-     max-height: 30px;
-   }
-   .topnav a {
-     float: left;
-     color: #f2f2f2;
-     text-align: center;
-     padding: 1px 3px;
-     text-decoration: none;
-     font-size: 17px;
-   }
+
   }
   @media only screen and (min-width: 420px) {
+
+
     #app {
       width: 100%;
 
 
-    }
-   #topnav-right {
-     display:hidden;
-     padding: 0px;
-     margin-top:-10px;
-   }
-   #topnav {
-     display: ;
-     padding: 0;
-     max-height: 30px;
-   }
-   .topnav a {
-     float: left;
-     color: #f2f2f2;
-     text-align: center;
-     padding: 1px 3px;
-     text-decoration: none;
-     font-size: 17px;
-   }
+
   }
+}
 
 
   /* Responsive navigation menu (for mobile devices) */
   @media screen and (max-width: 600px) {
-    .topnav a, .topnav-right {
-      float: none;
-      display: block;
-    }
 
-    .topnav-centered a {
-      position: relative;
-      top: 0;
-      left: 0;
-      transform: none;
-    }
-    /*.topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 10px 11px;
-      text-decoration: none;
-      font-size: 17px;
-    }*/
   }
+  @media screen and (max-width: 820px) {
+
+
+
+  }
+
 </style>
