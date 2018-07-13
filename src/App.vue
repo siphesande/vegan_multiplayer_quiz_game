@@ -8,22 +8,35 @@
     <!-- <a href="#home" class="active"><router-link to="/">Vegan Multiplayer Quiz Game</router-link></a> -->
     <a class="active">Vegan Multiplayer Quiz Game</a>
          <p><em>We Will Play Together</em></p>
+
   </div>
 
   <!-- Left-aligned links (default) -->
 
 
-  <a href="#about"><router-link to="/about">About</router-link></a>
+  <a href="#about"><router-link to="/about">About the Game</router-link></a>
   <!-- Right-aligned links -->
   <div class="topnav-right">
-  <a href="#contact"><router-link to="/contact">Contact</router-link></a>
+  <!-- <a href="#contact"><router-link to="/contact">Contact</router-link></a> -->
+
 
   </div>
 
 </div>
+<div class="footer">
+  <div class="thetime" >Time left = <span id="timer" style="color:red"></span></div>
+  <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a>
+  <a href="#" class="btn btn-info btn-sm">
+    <span class="glyphicon glyphicon-menu-left"></span> Back to Home
+  </a>
+
+</div>
+
 
     <router-view></router-view>
   </div>
+
+
 </template>
 
 <script>
@@ -38,6 +51,15 @@ export default {
   html {
     background: #7fd4d3;
   }*/
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: red;
+   text-align: center;
+}
 
   #app {
     /*height: 140vh;*/
