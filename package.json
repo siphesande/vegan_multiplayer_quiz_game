@@ -1,8 +1,8 @@
 {
-  "name": "pusher-firebasehosting",
+  "name": "vgn game",
   "version": "1.0.0",
-  "description": "A Vue.js app to demontrate Static pages with realtime features using Pusher and Firebase Hosting",
-  "author": "Yomi Eluwande <iamlese@yahoo.com>",
+  "description": "A Vue.js app to demontrate Static pages with realtime features using ",
+  "author": "sphe",
   "private": true,
   "scripts": {
     "dev": "nodemon server.js & node build/dev-server.js",
