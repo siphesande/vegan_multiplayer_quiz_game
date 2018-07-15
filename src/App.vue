@@ -18,10 +18,9 @@
            <h4 class="modal-title" style="color:black">About the game</h4>
          </div>
          <div class="modal-body">
-           <p style="color:black">Vegan multiplayer quiz game is not just for fun. It is built to help vegans/plant based people to be able to test thier knowleged about veganism.
-           This guiz game will hellp you to answer FAQ about veganism. It will also help to  able respond to non-vegan 30 excuses for not going vegan
-           It very easy to play, all you have to is to select one of the options available. It is online, We want you to be able to play with your vegan sister
-           who is in Hong Kong while you are in South Africa. Most of the Questions are taken from Earthlings Ed e-book.</p>
+           <p style="color:black">Vegan multiplayer quiz game is not just for fun. It is built to help vegans/plant-based people/activists to be able to test their knowleged about veganism.
+           This guiz game will hellp you to answer FAQ about veganism. It will also help to able respond to non-vegan 30 excuses for not going vegan
+           It very easy to play, It's Multiple choice. It available online and you can play with anyone everywhere they are in the world. Most of the Questions are taken from Earthlings Ed e-book.</p>
          </div>
          <div class="modal-footer">
             <p style="color:black">E-mail:vegancomputerprogrammer@gmail.com</p>

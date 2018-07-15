@@ -9,7 +9,7 @@ const pusher = new Pusher({
   appId: '',
   key: '',
   secret: '',
-  cluster: '',
+  cluster: 'eu',
   encrypted: true
 })
 
