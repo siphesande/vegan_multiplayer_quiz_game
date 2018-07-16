@@ -1,7 +1,7 @@
 <script>
   import Pusher from 'pusher-js'
-  const pusher = new Pusher('9515943b8731629a2b7b', {
-    cluster: 'eu',
+  const pusher = new Pusher('', {
+    cluster: '',
     encrypted: true,
     authEndpoint: 'http://localhost:5000/pusher/auth'
   })
