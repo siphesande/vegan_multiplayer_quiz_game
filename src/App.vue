@@ -4,7 +4,7 @@
     <nav class="navbar navbar-light bg-light">
   <form class="form-inline">
     <button class="btn btn-info btn-lg" type="button" style="color:red">Vegan Multiplayer Quiz Game</button>
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">About the game</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">About the Game</button>
   </form>
 </nav>
 
@@ -15,12 +15,12 @@
        <div class="modal-content">
          <div class="modal-header">
            <button type="button" class="close" data-dismiss="modal">&times;</button>
-           <h4 class="modal-title" style="color:black">About the game</h4>
+           <h4 class="modal-title" style="color:black">About the Game</h4>
          </div>
          <div class="modal-body">
            <p style="color:black">Vegan multiplayer quiz game is not just for fun. It is built to help vegans/plant-based people/activists to be able to test their knowleged about veganism.
-           This guiz game will hellp you to answer FAQ about veganism. It will also help to able respond to non-vegan 30 excuses for not going vegan
-           It very easy to play, It's Multiple choice. It available online and you can play with anyone everywhere they are in the world. Most of the Questions are taken from Earthlings Ed e-book.</p>
+           This guiz game will hellp you to answer FAQ about veganism. It will also help you to able respond to non-vegan 30 excuses for not going vegan
+           It very easy to play, It's Multiple choice. The is available online and therefore you can play with anyone everywhere they are in the world. Most of the Questions and Answers are taken from Earthlings Ed (e-book).</p>
          </div>
          <div class="modal-footer">
             <p style="color:black">E-mail:vegancomputerprogrammer@gmail.com</p>

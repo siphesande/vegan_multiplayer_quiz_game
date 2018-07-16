@@ -6,9 +6,9 @@ const Pusher = require('pusher')
 const crypto = require('crypto')
 
 const pusher = new Pusher({
-  appId: '',
-  key: '',
-  secret: '',
+  appId: '547454',
+  key: '9515943b8731629a2b7b',
+  secret: '27cff629533004dca9a3',
   cluster: 'eu',
   encrypted: true
 })
