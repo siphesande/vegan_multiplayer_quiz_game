@@ -3,7 +3,7 @@
   const pusher = new Pusher('d24f1489405006464fcf', {
     cluster: 'eu',
     encrypted: true,
-    authEndpoint: 'https://vegmultiplayer.herokuapp.com/pusher/auth'
+    authEndpoint: 'http://localhost:24182/pusher/auth'
   })
 
   export default ({
