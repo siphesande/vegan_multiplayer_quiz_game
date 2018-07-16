@@ -1,6 +1,6 @@
 <script>
   import Pusher from 'pusher-js'
-  const pusher = new Pusher('9515943b8731629a2b7b', {
+  const pusher = new Pusher('d24f1489405006464fcf', {
     cluster: 'eu',
     encrypted: true,
     authEndpoint: 'https://vegmultiplayer.herokuapp.com/pusher/auth'

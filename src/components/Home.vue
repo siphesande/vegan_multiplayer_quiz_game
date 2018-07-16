@@ -9,7 +9,7 @@
       </div>
 
       <div class="faq">
-        <li>Play with your friends/vegans verywhere they are in the world</li>
+        <li>Play with your friends/vegans everywhere they are in the world</li>
       </div>
 
       <div class="destroy">
