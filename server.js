@@ -6,10 +6,10 @@ const Pusher = require('pusher')
 const crypto = require('crypto')
 
 const pusher = new Pusher({
-  appId: '',
-  key: '',
-  secret: '',
-  cluster: '',
+  appId: '547454',
+  key: '9515943b8731629a2b7b',
+  secret: '27cff629533004dca9a3',
+  cluster: 'eu',
   encrypted: true
 })
 
@@ -30,7 +30,7 @@ app.use((req, res, next) => {
   next()
 })
 
-app.set('port', (5000))
+//app.set('port', (5000))
 
 app.get('/', (req, res) => {
   res.send('Welcome')
@@ -46,6 +46,6 @@ app.post('/pusher/auth', (req, res) => {
   res.send(auth)
 })
 
-app.listen(app.get('port'), () => {
-  console.log('Node app is running on port', app.get('port'))
+app.listen(app.get(5000), () => {
+  console.log('Node app is running on port 5000')
 })
