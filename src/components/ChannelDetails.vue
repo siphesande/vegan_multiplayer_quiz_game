@@ -1,9 +1,9 @@
 <script>
   import Pusher from 'pusher-js'
-  const pusher = new Pusher('d24f1489405006464fcf', {
+  const pusher = new Pusher('9515943b8731629a2b7b', {
     cluster: 'eu',
     encrypted: true,
-    authEndpoint: 'http://localhost:24182/pusher/auth'
+    authEndpoint: 'https://vegmultiplayer.herokuapp.com/pusher/auth'
   })
 
   export default ({

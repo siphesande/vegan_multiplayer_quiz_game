@@ -4,6 +4,12 @@ const bodyParser = require('body-parser')
 const app = express()
 const Pusher = require('pusher')
 const crypto = require('crypto')
+const morgan  = require('morgan')
+
+
+//This tells express to log via morgan
+//and morgan to log in the "combined" pre-defined format
+app.use(morgan('combined'))
 
 const serveStatic = require("serve-static")
 
