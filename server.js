@@ -5,6 +5,11 @@ const app = express()
 const Pusher = require('pusher')
 const crypto = require('crypto')
 
+const serveStatic = require("serve-static")
+
+
+app.use(serveStatic(path.join(__dirname, 'dist')));
+
 const pusher = new Pusher({
   appId: '547454',
   key: '9515943b8731629a2b7b',
@@ -30,8 +35,8 @@ app.use((req, res, next) => {
   next()
 })
 
-app.set('port', (5000))
-//var port = process.env.PORT || 5000
+//app.set('port', (5000))
+var port = process.env.PORT || 5000
 
 
 app.get('/', (req, res) => {
@@ -50,6 +55,9 @@ app.post('/pusher/auth', (req, res) => {
 
 
 
-app.listen(app.get('port'), () => {
-  console.log('Node app is running on port', app.get('port'))
+// app.listen(app.get('port'), () => {
+//   console.log('Node app is running on port', app.get('port'))
+// })
+app.listen(port, () => {
+  console.log('Node app is running on port', port)
 })
