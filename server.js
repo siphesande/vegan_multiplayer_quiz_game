@@ -42,6 +42,7 @@ app.use((req, res, next) => {
 })
 
 //app.set('port', (5000))
+//how port
 var port = process.env.PORT || 5000
 
 
