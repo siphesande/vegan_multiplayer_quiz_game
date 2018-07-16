@@ -31,6 +31,8 @@ app.use((req, res, next) => {
 })
 
 //app.set('port', (5000))
+var port = process.env.PORT || 5000
+
 
 app.get('/', (req, res) => {
   res.send('Welcome')
@@ -46,6 +48,8 @@ app.post('/pusher/auth', (req, res) => {
   res.send(auth)
 })
 
-app.listen(app.get(5000), () => {
-  console.log('Node app is running on port 5000')
+//app.listen(port);
+
+app.listen(port, () => {
+  console.log('Node app is running on port', port)
 })
