@@ -13,6 +13,23 @@
     <title>Vegan Multiplayer Quiz Game</title>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css"> -->
     <link rel="icon" href="https://www.iconspng.com/images/vegan-logo/vegan-logo.jpg">
+
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+  <script>
+
+    // Enable pusher logging - don't include this in production
+    Pusher.logToConsole = true;
+
+    var pusher = new Pusher('d24f1489405006464fcf', {
+      cluster: 'eu',
+      encrypted: true
+    });
+
+    var channel = pusher.subscribe('my-channel');
+    channel.bind('my-event', function(data) {
+      alert(JSON.stringify(data));
+    });
+  </script>
   </head>
   <body>
 
