@@ -12,7 +12,7 @@
 
     <div class="play" >
 
-      <div>
+      <!-- <div > -->
 
           <div class="columns hamilton--inner">
             <div class="column is-half left">
@@ -35,7 +35,7 @@
             </div>
           </div>
         <!-- </div> -->
-      </div>
+      <!-- </div> -->
     </div>
   </transition>
 
@@ -689,10 +689,20 @@ img {
 
 @media screen and (max-width:420px) {
 
-/*.title {
-    top :0;
 
-  }*/
+  .play {
+    margin: 0 0 0px 0;
+    padding-top: 0px;
+    top:0;
+  }
+  a {
+    color: #fff;
+    margin: 0 0 0px 0;
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 0 0 0px 0;
+  }
   .hamilton--inner {
     display:inline-block;
     text-align: center;
@@ -707,6 +717,7 @@ img {
   .hamilton--inner .left{
     display:inline-block;
     text-align: center;
+    margin: 0 0 0px 0;
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom:0px;

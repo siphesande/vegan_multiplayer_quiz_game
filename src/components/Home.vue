@@ -46,14 +46,14 @@
             </div>
 
             <div class="item">
-              <img src="/static/avpic.jpg" alt="Chicago" style="width:100%; border-radius: 50%; border-style: solid; border-color: #00b300; border-width: 5px;">
+              <img src="/static/av3.jpg" alt="Chicago" style="width:100%; border-radius: 50%; border-style: solid; border-color: #00b300; border-width: 5px;">
             </div>
 
             <div class="item">
               <img src="/static/domi.jpg" alt="New york" style="width:100%; border-style: dotted; border-color: #ff3300; border-width: 5px;">
             </div>
             <div class="item">
-              <img src="/static/av5.jpg" alt="New york" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
+              <img src="/static/veg.jpg" alt="New york" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
             </div>
           </div>
 
