@@ -41,19 +41,19 @@
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
-            <div class="item active">
-              <img src="/static/av3.png" alt="Los Angeles" style="width:100%; border-radius: 50%;">
+            <div class="item active" >
+              <img src="/static/av3.png" alt="Los Angeles" style="width:100%; border-radius: 50%; ">
             </div>
 
             <div class="item">
-              <img src="/static/av3.jpg" alt="Chicago" style="width:100%;">
+              <img src="/static/av3.jpg" alt="Chicago" style="width:100%; border-radius: 50%; border-style: solid; border-color: #00b300; border-width: 5px;">
             </div>
 
             <div class="item">
-              <img src="/static/domi.jpg" alt="New york" style="width:100%;">
+              <img src="/static/domi.jpg" alt="New york" style="width:100%; border-style: dotted; border-color: #ff3300; border-width: 5px;">
             </div>
             <div class="item">
-              <img src="/static/av5.jpg" alt="New york" style="width:100%;">
+              <img src="/static/av5.jpg" alt="New york" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
             </div>
           </div>
 
@@ -697,13 +697,13 @@
 }
 
 .destroy {
-  background-color:#ff0000;
+  background-color:#cc99ff;
   padding:4px;
 
   width:100%; /* The width is 20%, by default */
 }
 .divOfsecondPlayerLink {
-  background-color:#99ff33;
+  background-color:#33cccc;
   padding:20px;
   /*height: 2px;*/
   width:100%; /* The width is 20%, by default */
