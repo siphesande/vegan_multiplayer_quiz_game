@@ -19,7 +19,7 @@
            <h4 class="modal-title" style="color:black"><span class="glyphicon glyphicon-info-sign"></span>About the Game</h4>
          </div>
          <div class="modal-body">
-           <p style="color:black">Vegan multiplayer quiz game is not just for fun. It is built to help vegans/plant-based people/activists to be able to test their knowleged about veganism.
+           <p style="color:black">Vegan Activism multiplayer quiz game is not just for fun. It is built to help vegans/plant-based people/activists to be able to test their knowleged about veganism.
            This guiz game will hellp you to answer FAQ about veganism. It will also help you to able respond to non-vegan 30 excuses for not going vegan
            It very easy to play, It's Multiple choice. The is available online and therefore you can play with anyone everywhere they are in the world. </br>
            <li style="color: red;"> You have 30 minutes to finish</li>

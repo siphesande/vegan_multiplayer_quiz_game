@@ -5,7 +5,7 @@
 
 
       <div class="mult">
-        <li>Test your Vegan Activism IQ using this Vegan Activism Quiz Game</li>
+        <li>Test your Vegan Activism IQ </li>
         <li>Play with Vegans everywhere they are in the world</li>
       </div>
 
