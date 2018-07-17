@@ -42,7 +42,7 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active" >
-              <img src="/static/av3.png" alt="Los Angeles" style="width:100%; border-radius: 50%; ">
+              <img src="/static/vegan.png" alt="Los Angeles" style="width:100%; border-radius: 50%; ">
             </div>
 
             <div class="item">
@@ -53,7 +53,7 @@
               <img src="/static/domi.jpg" alt="New york" style="width:100%; border-style: dotted; border-color: #ff3300; border-width: 5px;">
             </div>
             <div class="item">
-              <img src="/static/vegan.png" alt="New york" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
+              <img src="/static/act.jpg" alt="AV" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
             </div>
           </div>
 
