@@ -46,7 +46,7 @@
             </div>
 
             <div class="item">
-              <img src="/static/av3.jpg" alt="Chicago" style="width:100%; border-radius: 50%; border-style: solid; border-color: #00b300; border-width: 5px;">
+              <img src="/static/avpic.jpg" alt="Chicago" style="width:100%; border-radius: 50%; border-style: solid; border-color: #00b300; border-width: 5px;">
             </div>
 
             <div class="item">

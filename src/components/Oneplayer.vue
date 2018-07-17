@@ -567,15 +567,15 @@
     margin-top: 0;
   }
 
-  .title {
+  /*.title {
     font-weight: bold;
     color: #ff66cc;
     padding-bottom:0px;
     margin: 1px;
-  }
-  .Rise{
+  }*/
+  /*.Rise{
     color: #0066ff
-  }
+  }*/
   .hamilton--lyrics--text {
     width: 600px;
     margin: 0 auto;
@@ -689,28 +689,24 @@ img {
 
 @media screen and (max-width:420px) {
 
-.title {
+/*.title {
     top :0;
 
-  }
+  }*/
   .hamilton--inner {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    padding-right: 0;
-    /*overflow:scroll;*/
-    /*white-space:nowrap;
-    text-wrap:no-wrap;*/
-
-    /*margin: auto;*/
-    /*display: block;*/
+    display:inline-block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
 
   }
 
 
   .hamilton--inner .left{
     display:inline-block;
-    text-align: left;
+    text-align: center;
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom:0px;
@@ -729,13 +725,13 @@ img {
     padding-right:0px;
 
   }
-  .container {
+  /*.container {
     margin-top: 0px;
     padding-top: 0px;
     padding-left:0px;
     padding-right:0px;
 
-  }
+  }*/
 
 
 .pigsbunny {
@@ -782,15 +778,7 @@ img {
     padding: 1px;
     text-align: center;
   }
-  .hamilton--inner {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0;
-    padding-bottom: 0;
-    /*overflow:scroll;
-    white-space:nowrap;
-    text-wrap:no-wrap;*/
-  }
+
 
 }
 
