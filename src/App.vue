@@ -1,13 +1,17 @@
 <template>
   <div id="app">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+
+    <!-- <nav class="navbar navbar-expand-sm navbar-light bg-primary"> -->
+  <div class="myNav" style="background-color:#b3b3cc;">
   <form class="form-inline">
     <button class="btn btn-info btn-sm" type="button" style="color:red">Veg Quiz Game</button>
-    <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>Player Alone</router-link></a>
-    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Info</button>
+    <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>Player Alone</router-link></a>
+    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span>Info</button>
   </form>
-</nav>
+</div>
+<!-- </nav> -->
 
 <div class="modal fade" id="myModal" role="dialog">
      <div class="modal-dialog">
@@ -41,11 +45,18 @@
 
 
 <div class="footer" style="background-color:#00b3b3">
-  <div class="thetime" >Time left = <span id="timer" style="color:red"></span></div>
-  <!-- <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a> -->
-  <a href="/" class="btn btn-info btn-sm">
+  <div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <!-- <a href="#"><i class="fa fa-search"></i></a> -->
+
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class="fa fa-clock-o"></i><span id="timer" style="color:red;font-size:15px"></span></a>
+  </div>
+  <!-- <div class="thetime" >Time left = <span id="timer" style="color:red"></span></div>
+  <! <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a> -->
+  <!-- <a href="/" class="btn btn-info btn-sm">
     <span class="glyphicon glyphicon-home"></span>Home
-  </a>
+  </a> -->
 
 
 
@@ -66,6 +77,29 @@ export default {
 
 
 <style>
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 3px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
 /*a
   html {
     background: #7fd4d3;
