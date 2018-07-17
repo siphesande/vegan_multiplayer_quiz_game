@@ -3,9 +3,9 @@
 
     <nav class="navbar navbar-expand-sm navbar-light bg-primary">
   <form class="form-inline">
-    <button class="btn btn-info btn-sm" type="button" style="color:red">Vegan Quiz Game</button>
+    <button class="btn btn-info btn-sm" type="button" style="color:red">Veg Quiz Game</button>
     <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>Player Alone</router-link></a>
-    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">About the Game</button>
+    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Info</button>
   </form>
 </nav>
 

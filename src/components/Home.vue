@@ -5,7 +5,7 @@
 
 
       <div class="mult">
-        <li>Test your Veganism Knowlegde with Quiz Game</li>
+        <li>Test your Veganism Knowlegde using this Vegan Quiz Game</li>
       </div>
 
       <div class="faq">
