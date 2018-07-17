@@ -1,10 +1,10 @@
 <script>
   import Pusher from 'pusher-js'
   var port = process.env.LINKPORT || 8082
-  const pusher = new Pusher('d24f1489405006464fcf', {
-    cluster: 'eu',
-    encrypted: true,
-    authEndpoint: 'https://playerveganserver.herokuapp.com/pusher/auth'
+  const pusher = new Pusher('', {
+    cluster: '',
+    encrypted: ,
+    authEndpoint: ''
     //authEndpoint: 'https://vegmultiplayer.herokuapp.com'+ port +'/pusher/auth'
   })
 

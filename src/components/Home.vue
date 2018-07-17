@@ -17,7 +17,7 @@
       </div>
 
       <div class="divOfsecondPlayerLink">
-        <ul class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></ul>
+        <li class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></li>
 
         <p>And Game will start automatically</p>
           <p>You are Team A</p>
