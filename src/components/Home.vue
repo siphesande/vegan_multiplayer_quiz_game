@@ -5,8 +5,8 @@
 
 
       <div class="mult">
-        <li>Test your Veganism Knowlegde using this Vegan Activism Quiz Game</li>
-        <li>Play with your vegans everywhere they are in the world</li>
+        <li>Test your Vegan Activism IQ using this Vegan Activism Quiz Game</li>
+        <li>Play with Vegans everywhere they are in the world</li>
       </div>
 
       <!-- <div class="faq">
@@ -14,7 +14,7 @@
       </div> -->
 
       <div class="destroy">
-       <li>RESPOND TO 30 NON-VEGAN EXCUSES</li>
+       <li>RESPOND TO 30 NON-VEGANS EXCUSES</li>
       </div>
 
       <div class="divOfsecondPlayerLink">
