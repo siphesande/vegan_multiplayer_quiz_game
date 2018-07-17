@@ -24,7 +24,7 @@
             <img src="https://media.gettyimages.com/photos/cow-picture-id176808277?b=1&k=6&m=176808277&s=612x612&w=0&h=2YLtLdhmuXHU8sy7siqHQQCMVto_UXGaO70ttGXSgcs=" id="teamimage1" alt="Cheetah!" width="100" height="50">
               <!-- <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.one.score}}</p> -->
             </div>
-          
+
           </div>
 
           <div class="hamilton--lyrics--text">
@@ -635,13 +635,18 @@
 }
 #teamimage1{
   border-radius: 10%;
+  border-style: solid;
+  border-color: #00b300;
+  border-width: 5px
 }
 #teamimage2{
   border-radius: 10%;
 }
 img {
-  /*border-radius: 50%;*/
+  border-style: solid;
+  border-color: #00b300;
   padding-top:1px;
+  border-width: 5px
 }
 
 /* Use a media query to add a break point at 800px: */

@@ -719,10 +719,16 @@
   color:#0033cc;
 }
 #teamimage1{
-  border-radius: 10%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #00b300;
+  border-width: 5px
 }
 #teamimage2{
-  border-radius: 10%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #00b300;
+  border-width: 5px
 }
 img {
   /*border-radius: 50%;*/
