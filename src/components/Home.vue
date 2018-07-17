@@ -5,12 +5,13 @@
 
 
       <div class="mult">
-        <li>Test your Veganism Knowlegde using this Vegan Quiz Game</li>
+        <li>Test your Veganism Knowlegde using this Vegan Activism Quiz Game</li>
+        <li>Play with your vegans everywhere they are in the world</li>
       </div>
 
-      <div class="faq">
-        <li>Play with your friends/vegans everywhere they are in the world</li>
-      </div>
+      <!-- <div class="faq">
+        <li>Play with your vegans everywhere they are in the world</li>
+      </div> -->
 
       <div class="destroy">
        <li>RESPOND TO 30 NON-VEGAN EXCUSES</li>
@@ -42,7 +43,7 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active" >
-              <img src="/static/vegan.png" alt="Los Angeles" style="width:100%; border-radius: 50%; ">
+              <img src="/static/vegan.png" alt="Los Angeles" style="width:100%; border-radius: 10%; ">
             </div>
 
             <div class="item">
