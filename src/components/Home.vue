@@ -17,7 +17,7 @@
       </div>
 
       <div class="divOfsecondPlayerLink">
-        <h3 class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></h3>
+        <ul class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></ul>
 
         <p>And Game will start automatically</p>
           <p>You are Team A</p>
@@ -135,7 +135,7 @@
     },
     {
       lyric: 'Meat Eater: So you are vegan where do you get your Proteins?',
-      options: [{name: 'we do not need Proteins', correct: false}, {name: 'We get proteins from fish and eggs', correct: false}, {name: 'We get proteins from plants the original source of proteins', correct: true}, {name: 'From from the Sun', correct: false}],
+      options: [{name: 'The biggist miconception is that you need meat for proteins', correct: false}, {name: 'We get proteins from fish and eggs', correct: false}, {name: 'We get proteins from plants the original source of proteins', correct: true}, {name: 'From from the Sun', correct: false}],
       answer: 'We get proteins from plants the original source of proteins'
     },
     {

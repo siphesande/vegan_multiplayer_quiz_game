@@ -17,7 +17,8 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
-    port: 8082,
+    //port: 8082,
+    port: process.env.LINKPORT || 8082,
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
