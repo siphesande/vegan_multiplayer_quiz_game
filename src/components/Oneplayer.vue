@@ -18,17 +18,13 @@
             <div class="column is-half left">
 
 
-              <p class="pigsbunny"  style="font-size:100%;">(The Calf)</p>
+              <p class="pigsbunny"  style="font-size:100%;"><a href="" class="btn btn-success">
+          <span class="glyphicon glyphicon-user"></span>Player Total Score: {{playerdata.one.score}}
+        </a></p>
             <img src="https://media.gettyimages.com/photos/cow-picture-id176808277?b=1&k=6&m=176808277&s=612x612&w=0&h=2YLtLdhmuXHU8sy7siqHQQCMVto_UXGaO70ttGXSgcs=" id="teamimage1" alt="Cheetah!" width="100" height="50">
-              <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.one.score}}</p>
+              <!-- <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.one.score}}</p> -->
             </div>
-            <div v-if="secondplayer" class="column is-half right">
-
-              <p class="title">Team B </p>
-              <p class="pigsbunny"style="font-size:100%;">(Bunny Rabbits)</p>
-              <img src="https://media.gettyimages.com/photos/white-rabbits-xlarge-picture-id157619624?b=1&k=6&m=157619624&s=612x612&w=0&h=BWSa86P3MQHhR77DFOsGDNuJY6f1EcijFabtHj3KhbQ=" id="teamimage2"alt="Cheetah!" width="100" height="40">
-              <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.two.score}}</p>
-            </div>
+          
           </div>
 
           <div class="hamilton--lyrics--text">
@@ -564,6 +560,11 @@
 
   .pigsbunny {
     float: centre;
+  }
+  .play {
+    top: 0;
+    padding-top: 0;
+    margin-top: 0;
   }
 
   .title {

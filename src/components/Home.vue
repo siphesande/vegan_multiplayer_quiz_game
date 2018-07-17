@@ -81,16 +81,16 @@
             <!-- <p class="Rise"><em>We Will Rise Together</em></p> -->
           <div class="columns hamilton--inner">
             <div class="column is-half left">
-              <!-- <p class="title">User 1</p> -->
-              <p class="title">Team A</p>
-              <p class="pigsbunny"  style="font-size:100%;">(Cute Piglets)</p>
+
+              <!-- <p class="title">Team A</p> -->
+              <p class="pigsbunny"  style="font-size:100%;">Team A (Cute Piglets)</p>
             <img src="https://media.gettyimages.com/photos/piglets-on-grass-picture-id533964231?b=1&k=6&m=533964231&s=612x612&w=0&h=zd0IFTcF_0yy-sThJVnYImWeD8hy3uL4kqUDGUrKoJw=" id="teamimage1" alt="Cheetah!" width="100" height="50">
               <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.one.score}}</p>
             </div>
             <div v-if="secondplayer" class="column is-half right">
-              <!-- <p class="title">User 2</p> -->
-              <p class="title">Team B </p>
-              <p class="pigsbunny"style="font-size:100%;">  (Bunny Rabbits)</p>
+
+              <!-- <p class="title">Team B </p> -->
+              <p class="pigsbunny"style="font-size:100%;">TeamB (Bunny Rabbits)</p>
               <img src="https://media.gettyimages.com/photos/white-rabbits-xlarge-picture-id157619624?b=1&k=6&m=157619624&s=612x612&w=0&h=BWSa86P3MQHhR77DFOsGDNuJY6f1EcijFabtHj3KhbQ=" id="teamimage2"alt="Cheetah!" width="100" height="40">
               <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.two.score}}</p>
             </div>
@@ -420,6 +420,7 @@
           this.players -= 1
           if (member.count === 1) {
             this.secondplayer = false
+            alert('One Player/Team is out of this channel!')
           }
         })
         channel.bind('client-send', (data) => {
@@ -822,13 +823,21 @@ img {
 
 
 .pigsbunny {
-
+  font-size: 5px;
   top :0;
   bottom: 0;
   margin-bottom: 0px;
   padding-bottom: 0px;
 
   }
+  p.pigsbunny {
+    font-size: 5px;
+    top :0;
+    bottom: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+    }
   #teamimage1 {
     margin-top:0px;
     padding: 0;
