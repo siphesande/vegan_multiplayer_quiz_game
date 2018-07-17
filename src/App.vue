@@ -39,7 +39,7 @@
 
 
 
-<div class="footer">
+<div class="footer" style="background-color:#00b3b3">
   <div class="thetime" >Time left = <span id="timer" style="color:red"></span></div>
   <!-- <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a> -->
   <a href="/" class="btn btn-info btn-sm">
@@ -69,7 +69,7 @@ export default {
   html {
     background: #7fd4d3;
   }*/
-  .footer {
+  /*.footer {
    position: fixed;
    left: 0;
    bottom: 0;
@@ -77,7 +77,7 @@ export default {
    background-color: red;
    color: red;
    text-align: center;
-}
+}*/
 
   #app {
     /*height: 140vh;*/
