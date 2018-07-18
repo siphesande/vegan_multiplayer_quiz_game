@@ -17,9 +17,9 @@ const serveStatic = require("serve-static")
 app.use(serveStatic(path.join(__dirname, 'dist')));
 
 const pusher = new Pusher({
-  appId: '',
-  key: '',
-  secret: '',
+  appId: '547456',
+  key: 'd24f1489405006464fcf',
+  secret: 'e051a0ae5b02fe1d0548',
   cluster: 'eu',
   encrypted: true
 })
