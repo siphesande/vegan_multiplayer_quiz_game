@@ -307,7 +307,7 @@
     },
     {
       lyric: 'Do not tell/show me! you will spoil my dinner OR You will put me off my food!',
-      options: [{name: 'Are you taste buds more important than the life of an animal', correct: false}, {name: 'Ignorance is not the solution', correct: false}, {name: 'All of the above', correct: true}],
+      options: [{name: 'Are your taste preferences more important than the life of an animal', correct: false}, {name: 'Ignorance is not the solution', correct: false}, {name: 'All of the above', correct: true}],
       answer: 'All of the above'
     },
     {
@@ -793,10 +793,10 @@ img {
     border-radius: 50%;
   }
   .hamilton--answers{
-    max-width: 90%;
+    max-width: 100%;
     margin-right: 0px;
     padding-right:0px;
-    position: relative;
+    position: center;
     padding-top: 0px;
   }
 
@@ -817,9 +817,10 @@ img {
     display: block;
     border: 3px solid white;
     border-radius: 50px;
-    margin: 8px auto;
-    width: 340px;
-    padding: 1px;
+    /*margin: 8px auto;*/
+    /*width: 340px;*/
+    /*padding: 2px;*/
+    width: 100%;
     float: center;
     text-align: center;
   }

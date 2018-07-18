@@ -47,7 +47,7 @@
 
 <div class="footer" style="background-color:#00b3b3">
   <div class="icon-bar">
-    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a class="active" href="/"><i class="fa fa-home"></i></a>
 
 
     <a href="https://www.instagram.com/vegancomputerprogrammer/"><i class="fa fa-instagram"></i></a>
