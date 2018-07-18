@@ -23,9 +23,9 @@
            <h4 class="modal-title" style="color:black"><span class="glyphicon glyphicon-info-sign"></span>About the Game</h4>
          </div>
          <div class="modal-body">
-           <p style="color:black">Vegan Activism multiplayer quiz game is not just for fun. It is built to help vegans/plant-based people/activists to be able to test their knowleged about veganism.
-           This guiz game will hellp you to answer FAQ about veganism. It will also help you to able respond to non-vegan 30 excuses for not going vegan
-           It very easy to play, It's Multiple choice. Choose the most correct answer. The is available online and therefore you can play with anyone everywhere they are in the world. </br>
+           <p style="color:black">Vegan Activism multiplayer quiz game is built to help vegans/plant-based people/animal rights activists to be able to test their knowleged about veganism.
+           This guiz game will hellp you to answer FAQ. It will also help you to able respond to non-vegan 30 excuses for not going vegan
+           It very easy to play, It's Multiple choice. Choose the most correct answer. If you choose the most correct option you earn 10 points and minus 10 for incorrect answer. The is available online and therefore you can play with anyone everywhere they are in the world. </br>
            <li style="color: red;"> You have 30 minutes to finish</li>
            <li style="color: green;"> We will play together!</li>
            <li style="color: blue;"> You can also choose to play individually</li>
@@ -48,10 +48,11 @@
 <div class="footer" style="background-color:#00b3b3">
   <div class="icon-bar">
     <a class="active" href="#"><i class="fa fa-home"></i></a>
-    <!-- <a href="#"><i class="fa fa-search"></i></a> -->
+
 
     <a href="https://www.instagram.com/vegancomputerprogrammer/"><i class="fa fa-instagram"></i></a>
     <a ><i class="fa fa-clock-o"></i><span id="timer" style="color:red;font-size:15px"></span></a>
+    <a href="https://www.facebook.com/vegancomputerprogrammerpage/"><i class="fa fa-facebook"></i></a>
   </div>
   <!-- <div class="thetime" >Time left = <span id="timer" style="color:red"></span></div>
   <! <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a> -->
