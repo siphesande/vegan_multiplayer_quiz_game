@@ -25,10 +25,10 @@
          <div class="modal-body">
            <p style="color:black">Vegan Activism multiplayer quiz game is built to help vegans/plant-based people/animal rights activists to be able to test their knowleged about veganism.
            This guiz game will hellp you to answer FAQ. It will also help you to able respond to non-vegan 30 excuses for not going vegan
-           It very easy to play, It's Multiple choice. Choose the most correct answer. If you choose the most correct option you earn 10 points and minus 10 for incorrect answer. The is available online and therefore you can play with anyone everywhere they are in the world. </br>
+           It very easy to play, It's Multiple choice. Choose the most correct answer. If you choose the most correct option you earn 10 points and minus 10 for incorrect answer. The is available online and therefore you can play with anyone wherever they are in the world. </br>
            <li style="color: red;"> You have 30 minutes to finish</li>
-           <li style="color: green;"> We will play together!</li>
-           <li style="color: blue;"> You can also choose to play individually</li>
+           <li style="color: green;">We will play together!</li>
+           <li style="color: blue;">You can also choose to play individually</li>
 
            <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p>
          </div>

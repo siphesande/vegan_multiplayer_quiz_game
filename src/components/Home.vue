@@ -6,7 +6,7 @@
 
       <div class="mult">
         <li>Test your Vegan Activism IQ </li>
-        <li>Play with Vegans everywhere they are in the world</li>
+        <li>Play with Vegans anywhere they are in the world</li>
       </div>
 
       <!-- <div class="faq">
@@ -14,12 +14,12 @@
       </div> -->
 
       <div class="destroy">
-       <li>RESPOND TO 30 NON-VEGANS EXCUSES</li>
+       <li>RESPOND TO 30 NON-VEGAN EXCUSES</li>
       </div>
 
       <div class="divOfsecondPlayerLink">
         <li class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></li>
-        <p>And Game will auto start,You're Team A</p>
+        <p>& Game will start soon!. You're Team A</p>
       </div>
 
 
@@ -127,8 +127,8 @@
       answer: 'Environment'
     },
     {
-      lyric: 'Fill in the missing part. Veganism is ______',
-      options: [{name: 'Extreme', correct: false}, {name: 'Peaceful', correct: true}, {name: 'About Animals', correct: false}, {name: 'The Future', correct: false}],
+      lyric: 'Fill in the missing word: Veganism is ______',
+      options: [{name: 'Extreme and Restrictive', correct: false}, {name: 'Peaceful', correct: true}, {name: 'About Animals', correct: false}, {name: 'The Future', correct: false}],
       answer: 'Peaceful'
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       lyric: 'Meat eater: Eating animal products is my personal choice!',
-      options: [{name: 'If someone makes the personal choice to abuse a dog, does that make it morally justifiable?', correct: true}, {name: 'yes I respect you choice', correct: false}, {name: 'chooses to be racist or a rapist actively chooses to commit rape.', correct: false}, {name: 'What about the choice of the victims/non-human aniimals?', correct: false}],
+      options: [{name: 'If someone makes the personal choice to abuse a dog, does that make it morally justifiable?', correct: true}, {name: 'yes I respect you choice', correct: false}, {name: 'chooses to be racist or a rapist actively chooses to commit rape.', correct: false}, {name: 'What about the choice of the victims/non-human animals?', correct: false}],
       answer: 'If someone makes the personal choice to abuse a dog, does that make it morally justifiable?'
     },
     {
@@ -208,12 +208,12 @@
       answer: 'Animals have one life, do you value your taste buds higher than the life of an animal?'
     },
     {
-      lyric: 'Non-vegans: But other animals eat other animals',
-      options: [{name: 'Whether they eat other or not, we do not care. We just want people to go vegans', correct: false}, {name: 'So what?', correct: false}, {name: 'Wild animals kill each other, does that mean it is morally justifiable for humans to kill each other just because some wild animals do?', correct: true}],
+      lyric: 'Non-vegan: But other animals eat other animals',
+      options: [{name: 'Whether they eat their fellow non-human animal or not, we do not care! we just want people to go vegans', correct: false}, {name: 'So what?', correct: false}, {name: 'Wild animals kill each other, does that mean it is morally justifiable for humans to kill each other just because some wild animals do?', correct: true}],
       answer: 'Wild animals kill each other, does that mean it is morally justifiable for humans to kill each other just because some wild animals do?'
     },
     {
-      lyric: 'Non-vegans excuse: We need to eat animal products for nutrition',
+      lyric: 'Non-vegan excuse: We need to eat animal products for nutrition',
       options: [{name: 'It is 2018, we do not need to eat animals', correct: false}, {name: 'eating meat causes cancer', correct: false}, {name: 'If you eat meat you will die young', correct: false}, {name: 'It is act of unnecessary cruelty because all nutrients we can get from plant. Who should watch: What the health documentary', correct: true}],
       answer: 'It is act of unnecessary cruelty because all nutrients we can get from plant. Who should watch: What the health documentary'
     },
@@ -299,11 +299,11 @@
     },
     {
       lyric: 'What about farmer`s jobs?',
-      options: [{name: 'Farmers should die of hunger', correct: false}, {name: 'We do not care about farmer', correct: false}, {name: 'Farmers should relocate ubarn areas/cities/town', correct: false}, {name: 'Farmers can switch to arable farming and produce only plants', correct: true}],
+      options: [{name: 'Farmers should die of hunger', correct: false}, {name: 'We do not care about farmer', correct: false}, {name: 'Farmers should relocate to urban areas/cities/town', correct: false}, {name: 'Farmers can switch to arable farming and produce only plants', correct: true}],
       answer: 'Farmers can switch to arable farming and produce only plants'
     },
     {
-      lyric: 'Non vegans: It is the circle of life',
+      lyric: 'Non-vegan: It is the circle of life',
       options: [{name: 'Is it also the circle of life when People kill People ', correct: false}, {name: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?', correct: true}, {name: 'People have been killing one another Since the beginning of times deos that make it moral', correct: false}],
       answer: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?'
     },
@@ -323,7 +323,7 @@
       answer: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.'
     },
     {
-      lyric: 'Excuses from non vegans: God says that we can eat animals',
+      lyric: 'Excuses from non-vegan: God says that we can eat animals',
       options: [{name: 'There is no God', correct: false}, {name: 'Where does Gods say we should eat animals?', correct: false}, {name: 'If we don’t have to kill God’s creatures do you not think a kind, compassionate, benevolent God would rather that we didn’t?.', correct: true}, {name: 'Are you serious?', correct: false}],
       answer: 'If we don’t have to kill God’s creatures do you not think a kind, compassionate, benevolent God would rather that we didn’t?.'
     },
@@ -381,8 +381,13 @@
       lyric: 'What is the major cause of global warming?     (Choose the most correct below)',
       options: [{name: 'Car/Tranportation industry', correct: false}, {name: 'Humans', correct: false}, {name: 'Animal Agriculture Industry', correct: true}, {name: 'All of the Above', correct: false}],
       answer: 'Animal Agriculture Industry'
+    },
+    {
+      lyric: '___ tells the story of James Wilks — elite special forces trainer and winner of The Ultimate Fighter — as he travels the world on a quest for the truth behind the world`s most dangerous myth: that meat is necessary for protein, strength and optimal health. Meeting elite athletes, special ops soldiers, visionary scientists, cultural icons, and everyday heroes, what James discovers permanently changes his relationship with food and his definition of true strength.',
+      options: [{name: 'PlantPure Nation', correct: false}, {name: 'The Game Changers', correct: true}, {name: 'Eating Animals', correct: true}],
+      answer: 'The Game Changers'
     }
-]
+  ]
   export default {
     name: 'home',
     data () {
