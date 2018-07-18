@@ -24,7 +24,7 @@
 
       <div class="divOfsecondPlayerLink">
         <li class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></li>
-        <p>& Game will start soon!. You're Team A</p>
+        <p>& Game will start soon! You're Team A</p>
       </div>
 
 
