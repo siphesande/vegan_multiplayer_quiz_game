@@ -177,7 +177,7 @@
     },
     {
       lyric: 'Meat eater: Animals do not feel pain & do not suffer the same as we do',
-      options: [{name: 'animals feel pain but lesser that human', correct: false}, {name: 'animals when they are are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours', correct: true}, {name: 'Animals feel pain because they are centients beings', correct: false}],
+      options: [{name: 'animals feel pain but lesser that human', correct: false}, {name: 'animals when they are are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours', correct: true}, {name: 'Animals feel pain because they are sentient beings', correct: false}],
       answer: 'animals when they are are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours'
     },
     {
