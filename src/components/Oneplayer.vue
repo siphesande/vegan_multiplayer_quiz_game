@@ -45,6 +45,11 @@
   import ChannelDetails from '@/components/ChannelDetails'
   const lyrics = [
     {
+      lyric: '___ tells the story of James Wilks — elite special forces trainer and winner of The Ultimate Fighter — as he travels the world on a quest for the truth behind the world`s most dangerous myth: that meat is necessary for protein, strength and optimal health. Meeting elite athletes, special ops soldiers, visionary scientists, cultural icons, and everyday heroes, what James discovers permanently changes his relationship with food and his definition of true strength.',
+      options: [{name: 'PlantPure Nation', correct: false}, {name: 'The Game Changers', correct: true}, {name: 'Eating Animals', correct: false}],
+      answer: 'The Game Changers'
+    },
+    {
       lyric: 'What is Veganism?',
       options: [{name: 'Lifestyle of Avoiding Meat', correct: false}, {name: 'Veganism is Vegetarian', correct: false}, {name: 'It is a religion', correct: false}, {name: 'Is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.', correct: true}],
       answer: 'Is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.'
@@ -162,7 +167,7 @@
     },
     {
       lyric: 'If we did not eat Animals they would overrun us or go extinct',
-      options: [{name: 'the world isn’t going to go vegan overnight and it will instead be a gradual process over a long period, this means that as more and more people go vegan, less and less animals will be bred in proportion with the rise of veganism', correct: true}, {name: 'No they will not because first we gonna eat lot animals and then go vegan', correct: false}, {name: 'Yes they will!', correct: false}],
+      options: [{name: 'the world isn’t going to go vegan overnight and it will instead be a gradual process over a long period, this means that as more and more people go vegan, less and less animals will be bred in proportion with the rise of veganism', correct: true}, {name: 'No they will not because first we gonna eat lot animals and then go vegan', correct: false}, {name: 'Interesting..', correct: false}],
       answer: 'the world isn’t going to go vegan overnight and it will instead be a gradual process over a long period, this means that as more and more people go vegan, less and less animals will be bred in proportion with the rise of veganism'
     },
     {
@@ -186,7 +191,7 @@
       answer: 'The food chains in nature exist because they have to. The predator needs to kill the prey to survive. We don’t have to kill anyone to live'
     },
     {
-      lyric: "We're more intelligent than animals",
+      lyric: 'We`re more intelligent than animals',
       options: [{name: 'Does intelligence define worth of life?”', correct: false}, {name: 'Is your life worth more than someone who has learning difficulties?', correct: false}, {name: 'If intelligence equals dominance does that mean that anyone with a high IQ can do what they want to someone with a lower IQ?”', correct: false}, {name: 'Worth of life can not be detected by the nortion of intelligence by instead is equel among all living beings', correct: false}, {name: 'All of the above', correct: true}],
       answer: 'All of the above'
     },
@@ -282,7 +287,7 @@
     },
     {
       lyric: 'What are Earthlings',
-      options: [{name: 'Earthlings are non human animals', correct: false}, {name: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.', correct: true}, {name: 'I still have pizza, spaghetti bolognese, mac and cheese, curries, nachos, burritos, etc in fact you can veganise pretty much any non-vegan meal.', correct: false}, {name: 'None of the Above', correct: false}],
+      options: [{name: 'Earthlings are non human animals', correct: false}, {name: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.', correct: true}, {name: 'Earthlings are people from Mars or Aliens', correct: false}, {name: 'None of the Above', correct: false}],
       answer: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.'
     },
     {
@@ -315,11 +320,7 @@
       options: [{name: 'Car/Tranportation industry', correct: false}, {name: 'Humans', correct: false}, {name: 'Animal Agriculture Industry', correct: true}, {name: 'All of the Above', correct: false}],
       answer: 'Animal Agriculture Industry'
     },
-    {
-      lyric: '___ tells the story of James Wilks — elite special forces trainer and winner of The Ultimate Fighter — as he travels the world on a quest for the truth behind the world`s most dangerous myth: that meat is necessary for protein, strength and optimal health. Meeting elite athletes, special ops soldiers, visionary scientists, cultural icons, and everyday heroes, what James discovers permanently changes his relationship with food and his definition of true strength.',
-      options: [{name: 'PlantPure Nation', correct: false}, {name: 'The Game Changers', correct: true}, {name: 'Eating Animals', correct: true}],
-      answer: 'The Game Changers'
-    }
+
   ]
   export default {
     name: 'home',
