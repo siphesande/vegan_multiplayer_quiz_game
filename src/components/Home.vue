@@ -174,7 +174,7 @@
     },
     {
       lyric: 'It is ok to kill animals if we use humane slaughter',
-      options: [{name: 'Putting humane before slaughter does make slaughter right/moral', correct: false}, {name: 'Yes, we need to show compassion and benevolence when kill them fast and quick', correct: false}, {name: 'There is no right way of doing rong thing', correct: false}, {name: 'Nothing humane killing someone that deos not want to die', correct: true}],
+      options: [{name: 'Putting humane before slaughter does make slaughter right/moral', correct: false}, {name: 'Yes, we need to show compassion and benevolence and also kill them fast and quick', correct: false}, {name: 'There is no right way of doing wrong thing', correct: false}, {name: 'Nothing humane killing someone that deos not want to die', correct: true}],
       answer: 'Nothing humane killing someone that deos not want to die'
     },
     {
