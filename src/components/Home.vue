@@ -19,10 +19,7 @@
 
       <div class="divOfsecondPlayerLink">
         <li class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></li>
-
-        <p>And Game will start automatically</p>
-          <p>You are Team A</p>
-
+        <p>And Game will auto start,You're Team A</p>
       </div>
 
 
@@ -116,12 +113,12 @@
   const lyrics = [
     {
       lyric: 'What is Veganism?',
-      options: [{name: 'lifestyle  of Avoiding Meat', correct: false}, {name: 'Veganism is Vegetarian', correct: false}, {name: 'Group of people that seek attention', correct: false}, {name: 'is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.', correct: true}],
-      answer: 'is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.'
+      options: [{name: 'lifestyle of Avoiding Meat', correct: false}, {name: 'Veganism is Vegetarian', correct: false}, {name: 'Group of people that seek attention', correct: false}, {name: 'Is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.', correct: true}],
+      answer: 'Is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.'
     },
     {
-      lyric: 'Why you become Vegan?',
-      options: [{name: 'I want to look sexy and attractive ', correct: false}, {name: 'I want live a long life', correct: false}, {name: 'Animals Are My Friends And I Do not Eat My Friends', correct: false}, {name: 'I can about Animals, Health and Environment', correct: true}, {name: 'Why you Eat meat?', correct: false}],
+      lyric: 'Why you became Vegan?',
+      options: [{name: 'I want to look sexy and attractive ', correct: false}, {name: 'I want live a long life', correct: false}, {name: 'Animals Are My Friends And I Do not Eat My Friends', correct: false}, {name: 'I can about Animals, Health and Environment', correct: true}, {name: 'And why you became meat eater?', correct: false}],
       answer: 'I care about Animals, Health and Environment'
     },
     {
@@ -130,24 +127,24 @@
       answer: 'Environment'
     },
     {
-      lyric: 'Veganism is ______',
+      lyric: 'Fill in the missing part. Veganism is ______',
       options: [{name: 'Extreme', correct: false}, {name: 'Peaceful', correct: true}, {name: 'About Animals', correct: false}, {name: 'The Future', correct: false}],
       answer: 'Peaceful'
     },
     {
       lyric: 'Meat Eater: So you are vegan where do you get your Proteins?',
-      options: [{name: 'The biggist miconception is that you need meat for proteins', correct: false}, {name: 'We get proteins from fish and eggs', correct: false}, {name: 'We get proteins from plants the original source of proteins', correct: true}, {name: 'From from the Sun', correct: false}],
+      options: [{name: 'The biggest misconception is that you need meat for proteins', correct: false}, {name: 'We get proteins from fish and eggs', correct: false}, {name: 'We get proteins from plants the original source of proteins', correct: true}, {name: 'We supplement them', correct: false}],
       answer: 'We get proteins from plants the original source of proteins'
     },
     {
       lyric: 'Which documentary film that explores the impact of animal agriculture on the environment?',
-      options: [{name: 'Cowspiracy: The Sustainability Secret ', correct: true}, {name: 'Earthlings', correct: false}, {name: 'Land of hope and glory', correct: false}, {name: 'Dominion', correct: false}, {name: 'What the health', correct: false}],
+      options: [{name: 'Cowspiracy: The Sustainability Secret ', correct: true}, {name: 'Earthlings', correct: false}, {name: 'Land of hope and glory', correct: false}, {name: 'Dominion', correct: false}, {name: 'What the Health', correct: false}],
       answer: 'Cowspiracy: The Sustainability Secret'
     },
     {
-      lyric: "Film that uncovers the secret to preventing and even reversing chronic diseases, and he investigates why the nation's leading health organizations doesn't want people to know about it",
-      options: [{name: 'Vegan 2017', correct: false}, {name: 'Game Changers', correct: false}, {name: 'Lucid', correct: false}, {name: 'What the Heath', correct: true}, {name: 'PETA', correct: false}],
-      answer: 'What the heath'
+      lyric: "Film that uncovers the secret to preventing and even reversing chronic diseases, and investigates why the nation's leading health organizations doesn't want people to know about it",
+      options: [{name: 'Vegan 2017', correct: false}, {name: 'Game Changers', correct: false}, {name: 'Lucid', correct: false}, {name: 'What the Health', correct: true}, {name: 'PETA', correct: false}],
+      answer: 'What the Health'
     },
 
     {
@@ -161,7 +158,7 @@
       answer: 'Like us'
     },
     {
-      lyric: 'Eat Eater: why you blame me for killing Animals, I do not kill animals, slaughterhouse worker and farmer do so?',
+      lyric: 'Meat eater: why you blame me for killing Animals, I do not kill animals, slaughterhouse worker and farmer do so?',
       options: [{name: 'We the ones that demanded meat and therefore we hired farmers and Slaughterhouse worker to kill animals. Supply and demand', correct: true}, {name: 'Yes you hired a hit-man', correct: false}, {name: 'Everyone that eat animals is guilty', correct: false}, {name: 'Meat is Murder', correct: false}],
       answer: 'We the ones that demanded meat and therefore we hired farmers and Slaughterhouse worker to kill animals. Supply and demand'
     },
@@ -172,13 +169,13 @@
     },
     {
       lyric: 'What are Animals Factory Farms?',
-      options: [{name: 'Animal`s consentration camp', correct: false}, {name: 'Intensive Animal Farming', correct: false}, {name: 'Unmercyful production lines', correct: false}, {name: 'Intensive Animal Farming means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices', correct: true}],
-      answer: 'Intensive Animal Farming means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices'
+      options: [{name: 'Animals consentration Camps', correct: false}, {name: 'Intensive Animal Farming', correct: false}, {name: 'AFF means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices', correct: true}],
+      answer: 'AFF means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices'
     },
     {
-      lyric: 'It is ok kill animals if we use humane slaughter?',
-      options: [{name: 'we we need to kill them fast and quick', correct: false}, {name: 'yes we need to show compassion and benevolence when', correct: false}, {name: 'No shoul be killing animals for food', correct: false}, {name: 'Nothing humane for killing someone that deos not want to die', correct: true}],
-      answer: 'Nothing humane for killing someone that deos not want to die'
+      lyric: 'It is ok to kill animals if we use humane slaughter',
+      options: [{name: 'Putting humane before slaughter does make slaughter right/moral', correct: false}, {name: 'Yes, we need to show compassion and benevolence when kill them fast and quick', correct: false}, {name: 'There is no right way of doing rong thing', correct: false}, {name: 'Nothing humane killing someone that deos not want to die', correct: true}],
+      answer: 'Nothing humane killing someone that deos not want to die'
     },
     {
       lyric: 'Animals are With us not ___',
@@ -191,37 +188,37 @@
       answer: 'Can they suffer'
     },
     {
-      lyric: 'Meat eater: Why you use words like Holocaust, Murder, Rape?',
-      options: [{name: 'because you Murderer and rape animals', correct: false}, {name: 'because we are angry!', correct: false}, {name: 'I do not know!', correct: false}, {name: 'We call it like it is! like where when farmers put their hand on animals anus, doing Artificial insemination-that is rape', correct: true}],
+      lyric: 'Meat eaters: Why you use words like Holocaust, Murder, Rape?',
+      options: [{name: 'because you Murderer and rape animals', correct: false}, {name: 'The suffring animals is parall to the suffering of Jews, Blacks..', correct: false}, {name: 'because we are angry with you!', correct: false}, {name: 'We call it like it is! like where when farmers put their hand on animals anus doing Artificial insemination, that is a rape', correct: true}],
       answer: 'We call it like it is! like where when farmers put their hand on animals anus, doing Artificial insemination-that is rape'
     },
     {
       lyric: 'Can you love animals and eat them?',
-      options: [{name: 'Yes, as long you eat it when it old enough', correct: false}, {name: 'No because it can never be morally justified to take thier lives for food as we lie in a word where alternative are available', correct: false}, {name: 'if you love animals then by default the last thing you would ever want is to see their murdered body parts on a plate in front of you.', correct: true}, {name: 'animals are my friends so I do not eat my friends', correct: false}],
-      answer: 'if you love animals then by default the last thing you would ever want is to see their murdered body parts on a plate in front of you.'
+      options: [{name: 'Yes, as long you eat them when they old enough for meat', correct: false}, {name: 'No because it can never be morally justified to take thier lives for food as we lie in a word where alternative are available', correct: false}, {name: 'If you love animals then by default the last thing you would ever want is to see their murdered body parts on a plate in front of you.', correct: true}, {name: 'animals are my friends so I do not eat my friends', correct: false}],
+      answer: 'If you love animals then by default the last thing you would ever want is to see their murdered body parts on a plate in front of you.'
     },
     {
-      lyric: 'Meat-eater: Eating animal products is my personal choice!',
-      options: [{name: 'if someone makes the personal choice to abuse a dog, does that make it morally justifiable?', correct: true}, {name: 'yes I respect you choice', correct: false}, {name: 'chooses to be racist or a rapist actively chooses to commit rape.', correct: false}, {name: 'What about the choice of the victims/non-human aniimals?', correct: false}],
-      answer: 'if someone makes the personal choice to abuse a dog, does that make it morally justifiable?'
+      lyric: 'Meat eater: Eating animal products is my personal choice!',
+      options: [{name: 'If someone makes the personal choice to abuse a dog, does that make it morally justifiable?', correct: true}, {name: 'yes I respect you choice', correct: false}, {name: 'chooses to be racist or a rapist actively chooses to commit rape.', correct: false}, {name: 'What about the choice of the victims/non-human aniimals?', correct: false}],
+      answer: 'If someone makes the personal choice to abuse a dog, does that make it morally justifiable?'
     },
     {
-      lyric: 'Meat eater:I like the taste and I couldn’t give it up',
+      lyric: 'Meat eater: I like the taste and I couldn’t give it up',
       options: [{name: 'But you can eat vegans foods that taste like meat', correct: false}, {name: 'do you value your taste buds higher than the life of an animal?', correct: true}, {name: 'Eating meat is murder', correct: false}, {name: 'I also the  like the taste of meat buy I choose not to eat it', correct: false}],
       answer: 'do you value your taste buds higher than the life of an animal?'
     },
     {
       lyric: 'Non-vegans: But other animals eat other animals',
-      options: [{name: 'Whether they eat other or not, we do not care. We just want people to be vegans', correct: false}, {name: 'So what?', correct: false}, {name: 'wild animals kill each other, does that mean it is morally justifiable for humans to kill each other just because some wild animals do?', correct: true}],
+      options: [{name: 'Whether they eat other or not, we do not care. We just want people to go vegans', correct: false}, {name: 'So what?', correct: false}, {name: 'wild animals kill each other, does that mean it is morally justifiable for humans to kill each other just because some wild animals do?', correct: true}],
       answer: 'wild animals kill each other, does that mean it is morally justifiable for humans to kill each other just because some wild animals do?'
     },
     {
-      lyric: 'Non-vegan excuse: We need to eat animal products for nutrition',
+      lyric: 'Non-vegans excuse: We need to eat animal products for nutrition',
       options: [{name: 'It is 2018, we do not need to eat animals', correct: false}, {name: 'eating meat causes cancer', correct: false}, {name: 'If you eat meat you will die young', correct: false}, {name: 'It is act of unnecessary cruelty because all nutrients we can get from plant. Who should watch: What the heath?. movie', correct: true}],
-      answer: 'It is act of unnecessary cruelty because all nutrients we can get from plant. Who should watch: What the heath?. movie'
+      answer: 'It is act of unnecessary cruelty because all nutrients we can get from plant. Who should watch: What the heath? documentary'
     },
     {
-      lyric: 'meat eater excuse:"Eating animals is traditinal and cultural"',
+      lyric: 'Meat eater excuse:"Eating animals is traditinal and cultural"',
       options: [{name: 'You can not kill someone who wants to live in a compassionate and kind way', correct: false}, {name: 'The Yulin dog meat festival is traditional, does that make it okay to butcher and kill dogs and cats?', correct: true}, {name: 'should culture dedact morality?', correct: false}, {name: 'yes its cultural', correct: false}],
       answer: 'The Yulin dog meat festival is traditional, does that make it okay to butcher and kill dogs and cats?'
     },
@@ -246,23 +243,23 @@
       answer: 'A plant lacks a central nervous system, pain receptors and a brain which means that anatomically they don’t have the ability to feel pain.'
     },
     {
-      lyric: "Excuse from meat eater: Animals don’t feel pain & don't suffer the same as we do",
-      options: [{name: 'Can they survive ', correct: false}, {name: 'Can they play', correct: false}, {name: 'Can they suffer', correct: true}, {name: 'Can they reproduce', correct: false}],
-      answer: 'animals are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours'
+      lyric: 'Meat eater: Animals do not feel pain & do not suffer the same as we do',
+      options: [{name: 'animals fell pain but lesser that human', correct: false}, {name: 'animals when they are are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours', correct: true}, {name: 'Animals feel pain because they are centients beings', correct: false}],
+      answer: 'animals when they in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours'
     },
     {
-      lyric: "Carnist: It's the food chain",
-      options: [{name: 'The food chains in nature exist because they have to. The predator needs to kill the prey to survive. We don’t have to kill anyone to live ', correct: true}, {name: 'are we at the top of food chain', correct: false}, {name: 'Humans do not have to kill animals because we herbevores', correct: false}],
+      lyric:  'Carnist: It is the food chain',
+      options: [{name: 'The food chains in nature exist because they have to. The predator needs to kill the prey to survive. We don’t have to kill anyone to live ', correct: true}, {name: 'Who put us the top of food the chain?', correct: false}, {name: 'Humans do not have to kill animals because we are herbevores', correct: false}],
       answer: 'The food chains in nature exist because they have to. The predator needs to kill the prey to survive. We don’t have to kill anyone to live'
     },
     {
-      lyric: "We're more intelligent",
+      lyric: "We're more intelligent than animals",
       options: [{name: 'Does intelligence define worth of life?”', correct: false}, {name: 'Is your life worth more than someone who has learning difficulties?', correct: false}, {name: 'If intelligence equals dominance does that mean that anyone with a high IQ can do what they want to someone with a lower IQ?”', correct: false}, {name: 'Worth of life can not be detected by the nortion of intelligence by instead is equel among all living beings', correct: false}, {name: 'All of the above', correct: true}],
       answer: 'All of the above'
     },
     {
-      lyric: 'We’re doing animals a favour by giving them a life',
-      options: [{name: 'If a child is born into an abusive family, where he or she is regularly beaten, is never fed and eventually dies from all the abuse, would we think “well at least that child’s parents gave them a chance to experience life?” ', correct: true}, {name: 'Animals are where for us but with us', correct: false}, {name: 'We do have to bred animals to existence', correct: false}],
+      lyric: 'We are doing animals a favour by giving them a life',
+      options: [{name: 'If a child is born into an abusive family, where he or she is regularly beaten, is never fed and eventually dies from all the abuse, would we think “well at least that child’s parents gave them a chance to experience life?” ', correct: true}, {name: 'God is the only giver of life', correct: false}, {name: 'We do have to breed animals to existence', correct: false}],
       answer: 'If a child is born into an abusive family, where he or she is regularly beaten, is never fed and eventually dies from all the abuse, would we think “well at least that child’s parents gave them a chance to experience life?” '
     },
     {
@@ -272,7 +269,7 @@
     },
     {
       lyric: 'Morality is subjective',
-      options: [{name: 'Morality should not be dedact by culture', correct: false}, {name: 'yes we stronger than animals so we must kill them for food', correct: false}, {name: 'Morality is not subjective', correct: false}, {name: 'If you believe morality is subjective, would it therefore be acceptable for someone to murder their partner?', correct: true}],
+      options: [{name: 'Morality should not be dictated by culture', correct: false}, {name: 'yes we are stronger than animals so we must kill them for food', correct: false}, {name: 'Morality is not subjective', correct: false}, {name: 'If you believe morality is subjective, would it therefore be acceptable for someone to murder their partner?', correct: true}],
       answer: 'If you believe morality is subjective, would it therefore be acceptable for someone to murder their partner?'
     },
     {
@@ -301,18 +298,18 @@
       answer: 'actually Hitler wasn’t a vegetarian, but even if he was how does that morally justify you eating animals and their secretions?'
     },
     {
-      lyric: 'What About farmer`s jobs?',
-      options: [{name: 'Farmers should die of hunger ', correct: false}, {name: 'We do not care About farmer', correct: false}, {name: 'Farmers should go to ubarn areas/cities/town', correct: false}, {name: 'farmers can switch to arable farming and produce only plants', correct: true}],
-      answer: 'farmers can switch to arable farming and produce only plants'
+      lyric: 'What about farmer`s jobs?',
+      options: [{name: 'Farmers should die of hunger', correct: false}, {name: 'We do not care about farmer', correct: false}, {name: 'Farmers should relocate ubarn areas/cities/town', correct: false}, {name: 'Farmers can switch to arable farming and produce only plants', correct: true}],
+      answer: 'Farmers can switch to arable farming and produce only plants'
     },
     {
       lyric: 'Non vegans: It is the circle of life',
-      options: [{name: 'You are like the Nates', correct: false}, {name: 'Why yes meat eater you so have so much disconnect', correct: false}, {name: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?', correct: true}, {name: 'People have been killing one another Since the beginning of times deos that make it moral', correct: false}],
+      options: [{name: 'Is it also the circle of life when People kill People ', correct: false}, {name: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?', correct: true}, {name: 'People have been killing one another Since the beginning of times deos that make it moral', correct: false}],
       answer: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?'
     },
     {
       lyric: 'Malzoan: Animals are bred for a purpose',
-      options: [{name: 'Yes It can never be justified king pets', correct: false}, {name: 'We should not even bred animals', correct: false}, {name: 'Animals are like us', correct: false}, {name: 'Is dog fighting therefore moral if the dogs were bred with the purpose to fight?', correct: true}],
+      options: [{name: 'We should not even bred animals', correct: false}, {name: 'Animals are like us', correct: false}, {name: 'Is dog fighting therefore moral if the dogs were bred with the purpose to fight?', correct: true}],
       answer: 'Is dog fighting therefore moral if the dogs were bred with the purpose to fight?'
     },
     {
@@ -321,24 +318,24 @@
       answer: 'you’re right, soya farming is destructive for the environment, but did you know that over 85% of the soya grown is fed to livestock animals? It’s because of animal agriculture that soya is currently so destructive.'
     },
     {
-      lyric: 'Meat eater: We‘re omnivores with Canine teeth',
-      options: [{name: 'Our Canine are smaller', correct: false}, {name: 'Yes we have evolved now we are omnivores', correct: false}, {name: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.', correct: true}, {name: 'Canine teeth proves that humans are Carnivore and therefore should eat animals', correct: false}],
+      lyric: 'Omnivores: We‘re omnivores with Canine teeth',
+      options: [{name: 'Our Canine teeth are smaller', correct: false}, {name: 'Yes we have evolved and now we are omnivores', correct: false}, {name: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.', correct: true}, {name: 'Canine teeth proves that humans are Carnivore and therefore should eat animals', correct: false}],
       answer: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.'
     },
     {
       lyric: 'Excuses from non vegans: God says that we can eat animals',
-      options: [{name: 'There is no God', correct: false}, {name: 'God is a liar', correct: false}, {name: 'if we don’t have to kill God’screatures do you not think a kind, compassionate, benevolent God would rather that we didn’t?.', correct: true}, {name: 'Are you serious?', correct: false}],
-      answer: 'if we don’t have to kill God’screatures do you not think a kind, compassionate, benevolent God would rather that we didn’t?.'
+      options: [{name: 'There is no God', correct: false}, {name: 'God is a liar', correct: false}, {name: 'If we don’t have to kill God’s creatures do you not think a kind, compassionate, benevolent God would rather that we didn’t?.', correct: true}, {name: 'Are you serious?', correct: false}],
+      answer: 'If we don’t have to kill God’s creatures do you not think a kind, compassionate, benevolent God would rather that we didn’t?.'
     },
     {
       lyric: 'My friends and family will not like it if I go Vegan',
-      options: [{name: 'Do it for animals and do not try to inpress or please for friends and family', correct: false}, {name: 'Whether they like it or not, just forget about them!', correct: false}, {name: 'nobody should ever let the opinions of others stop them from following a way of life that is morally right.', correct: true}],
+      options: [{name: 'Do it for animals and do not try to impress friends and family go Vegan for animals', correct: false}, {name: 'Whether they like it or not, just forget about them!', correct: false}, {name: 'nobody should ever let the opinions of others stop them from following a way of life that is morally right.', correct: true}],
       answer: 'nobody should ever let the opinions of others stop them from following a way of life that is morally right.'
     },
     {
-      lyric: 'What is Speciesism',
-      options: [{name: 'It is a Dominion is one species over another', correct: false}, {name: 'It is when earthling kill another earthling', correct: false}, {name: 'It is an attitute of showing baise in favour of the interest of ones species against others species', correct: true}],
-      answer: 'It is an attitute of showing baise in favour of the interest of ones species against interest of others species'
+      lyric: 'What is Speciesism? .....Pick the most correct answer below',
+      options: [{name: 'It is a Dominion is one species over another', correct: false}, {name: 'The exploitation of the weak by the strong', correct: false}, {name: 'A prejudice or bias in favour of the interests of members of one`s own species and against those of members of other species', correct: true}],
+      answer: 'A prejudice or bias in favour of the interests of members of one`s own species and against those of members of other species'
     },
     {
       lyric: 'Which Religion is Veganism?',
@@ -348,13 +345,39 @@
     {
       lyric: 'Are vegans deficient in vitamin b12?',
       options: [{name: 'We can survive without b12', correct: false}, {name: 'B12 is not produced by any large organism. There is a common myth that it is produced by animals. It is not.', correct: false}, {name: 'B12 is made by anaerobic microorganisms. Anaerobic bacteria are common in the gastrointestinal tract of animals.Meat eater also need B12', correct: true}, {name: 'None of the Above', correct: false}],
-      answer: 'B12 is made by anaerobic microorganisms. Anaerobic bacteria are common in the gastrointestinal tract of animals.Meat meater also need B12'
+      answer: 'B12 is made by anaerobic microorganisms. Anaerobic bacteria are common in the gastrointestinal tract of animals. Meat eaters also need B12'
     },
     {
       lyric: 'What are Earthlings',
-      options: [{name: 'Earthlings are non human animals', correct: false}, {name: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.', correct: true}, {name: 'Earthlings are Aliens', correct: false}, {name: 'None of the Above', correct: false}],
+      options: [{name: 'Earthlings are non human animals', correct: false}, {name: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.', correct: true}, {name: 'I still have pizza, spaghetti bolognese, mac and cheese, curries, nachos, burritos, etc in fact you can veganise pretty much any non-vegan meal.', correct: false}, {name: 'None of the Above', correct: false}],
       answer: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.'
+    },
+    {
+      lyric: 'It`s extreme, expensive, difficult & restrictive to be vegan.',
+      options: [{name: 'It is also a misconception tha vegan food as limiting and vegan diets are expensive and elitist.', correct: false}, {name: 'Since becoming vegan I eat a much larger and more varied range of foods than I ever did before and I’m cooking with ingredients I’d never heard of.', correct: true}, {name: 'None of the Above', correct: false}],
+      answer: 'All of the Above'
+    },
+    {
+      lyric: 'Going Vegan, It`s extreme.    Choose most correct answer below',
+      options: [{name: 'No longer do I eat death, no longer does my food come from animals that screamed in pain as they were murdered.', correct: false}, {name: 'No longer am I eating foods that are the product of enslavement and torture. Those things sound extreme', correct: false}, {name: 'How can a vegan diet be extreme, when it consists of eating foods that prevent and cure disease, foods that increase the longevity of our lives, foods that give us more energy and help us to live more harmoniously with animals?', correct: true}],
+      answer: 'How can a vegan diet be extreme, when it consists of eating foods that prevent and cure disease, foods that increase the longevity of our lives, foods that give us more energy and help us to live more harmoniously with animals?'
+    },
+    {
+      lyric: 'but vegan food is expensive and elitist',
+      options: [{name: 'If you go into any supermarket, the most expensive foods tend to be the flesh and cheese and the cheapest foods are the beans, rice, potatoes, pasta, lentils, etc', correct: false}, {name: 'The only time where vegan food can be more expensive is when buying the substitutes, for example, frozen vegan ‘chicken’ nuggets are still more expensive than non-vegan chicken nuggets, but this is to do with supply and demand.', correct: false}, {name: 'All of the Above', correct: true}],
+      answer: 'All of the Above'
+    },
+    {
+      lyric: 'ONE PERSON CAN‘T  MAKE A DIFFERENCE because the whole world is already a mass?',
+      options: [{name: 'Of course one person can make a difference. In fact, sometimes it only takes one person to make a difference and to inspire a thousand minds.', correct: false}, {name: 'It really comes down to the idea of supply and demand, every time we buy a vegan product we are changing what is being demanded and voting with our wallet for the kind of world that we want to create.', correct: false}, {name: 'All of the Above', correct: true}],
+      answer: 'All of the Above'
+    },
+    {
+      lyric: 'Do not tell/show me! you will spoil my dinner OR You will put me off my food!',
+      options: [{name: 'Are you taste buds more important than the life of an animal', correct: false}, {name: 'Ignorance is not the solution', correct: false}, {name: 'All of the Above', correct: true}],
+      answer: 'All of the Above'
     }
+
 
 ]
   export default {
@@ -874,9 +897,10 @@ img {
     display: block;
     border: 3px solid white;
     border-radius: 50px;
-    margin: 10px auto;
-    width: 400px;
-    padding: 1px;
+    /*margin: 10px auto;*/
+    width: 300px;
+    padding: 0px;
+    margin: 0 0 0px 0;
     text-align: center;
   }
 
