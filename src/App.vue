@@ -50,8 +50,8 @@
     <a class="active" href="#"><i class="fa fa-home"></i></a>
     <!-- <a href="#"><i class="fa fa-search"></i></a> -->
 
-    <a href="#"><i class="fa fa-globe"></i></a>
-    <a href="#"><i class="fa fa-clock-o"></i><span id="timer" style="color:red;font-size:15px"></span></a>
+    <a href="https://www.instagram.com/vegancomputerprogrammer/"><i class="fa fa-instagram"></i></a>
+    <a ><i class="fa fa-clock-o"></i><span id="timer" style="color:red;font-size:15px"></span></a>
   </div>
   <!-- <div class="thetime" >Time left = <span id="timer" style="color:red"></span></div>
   <! <a href="#contact"><router-link to="/contact" class="btn btn-info btn-sm"><span class="glyphicons glyphicons-envelope"></span>contact us</router-link></a> -->

@@ -92,8 +92,8 @@
     },
     {
       lyric: 'Meat eater: why you blame me for killing Animals, I do not kill animals, slaughterhouse worker and farmer do so?',
-      options: [{name: 'We the ones that demanded meat and therefore we hired farmers and Slaughterhouse worker to kill animals. Supply and demand', correct: true}, {name: 'Yes you hired a hit-man', correct: false}, {name: 'Everyone that eat animals is guilty', correct: false}, {name: 'Meat is Murder', correct: false}],
-      answer: 'We the ones that demanded meat and therefore we hired farmers and Slaughterhouse worker to kill animals. Supply and demand'
+      options: [{name: 'We`re the ones that demanded meat and therefore we hired farmers and Slaughterhouse worker to kill animals (Supply and Demand)', correct: true}, {name: 'Yes you hired a hit-man to kill', correct: false}, {name: 'Everyone that eat animals is guilty', correct: false}, {name: 'Meat is Murder', correct: false}],
+      answer: 'We`re the ones that demanded meat and therefore we hired farmers and Slaughterhouse worker to kill animals (Supply and Demand)'
     },
     {
       lyric: '____ are my friends and I dont eat my friends?',
@@ -102,8 +102,8 @@
     },
     {
       lyric: 'What are Animals Factory Farms?',
-      options: [{name: 'Animals consentration Camps', correct: false}, {name: 'Intensive Animal Farming', correct: false}, {name: 'AFF means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices', correct: true}],
-      answer: 'AFF means that animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices'
+      options: [{name: 'Animals consentration Camps', correct: false}, {name: 'Intensive Animal Farming', correct: false}, {name: 'Animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices', correct: true}],
+      answer: 'Animals are crammed by the hundreds of thousands into filthy, windowless sheds: stuffed into wire cages, metal crates, and may other torturous devices'
     },
     {
       lyric: 'It is ok to kill animals if we use humane slaughter',
@@ -162,7 +162,7 @@
     },
     {
       lyric: 'If we did not eat Animals they would overrun us or go extinct',
-      options: [{name: 'the world isn’t going to go vegan overnight and it will instead be a gradual process over a long period, this means that as more and more people go vegan, less and less animals will be bred in proportion with the rise of veganism', correct: true}, {name: 'No the will not because first we gonna eat all animals and go vegan after that', correct: false}, {name: 'Yes they will!', correct: false}],
+      options: [{name: 'the world isn’t going to go vegan overnight and it will instead be a gradual process over a long period, this means that as more and more people go vegan, less and less animals will be bred in proportion with the rise of veganism', correct: true}, {name: 'No they will not because first we gonna eat lot animals and then go vegan', correct: false}, {name: 'Yes they will!', correct: false}],
       answer: 'the world isn’t going to go vegan overnight and it will instead be a gradual process over a long period, this means that as more and more people go vegan, less and less animals will be bred in proportion with the rise of veganism'
     },
     {
@@ -177,8 +177,8 @@
     },
     {
       lyric: 'Meat eater: Animals do not feel pain & do not suffer the same as we do',
-      options: [{name: 'animals fell pain but lesser that human', correct: false}, {name: 'animals when they are are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours', correct: true}, {name: 'Animals feel pain because they are centients beings', correct: false}],
-      answer: 'animals when they in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours'
+      options: [{name: 'animals feel pain but lesser that human', correct: false}, {name: 'animals when they are are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours', correct: true}, {name: 'Animals feel pain because they are centients beings', correct: false}],
+      answer: 'animals when they are are in pain they act correspondingly, showing unusual behavioural traits like rocking back and forth, emitting distress calls and changes in the rate and depth of breathing, such as panting. Humans in pain also display these behaviours'
     },
     {
       lyric:  'Carnist: It is the food chain',
@@ -197,7 +197,7 @@
     },
     {
       lyric: 'Can’t we just improve the lives of animals?',
-      options: [{name: 'Yes let us end Factory faming and promote old school traditional farming', correct: false}, {name: 'Yes animals should not be treated as objects', correct: false}, {name: 'it doesn’t matter what privilege or treatment the animals receive, if they are destined to be killed, exploited or abused in anyway then there is no ethical or humane way in which to treat these animals', correct: true}, {name: '?', correct: false}],
+      options: [{name: 'Yes let us end Factory farming and promote old school traditional farming', correct: false}, {name: 'Yes animals should not be treated as objects', correct: false}, {name: 'it doesn’t matter what privilege or treatment the animals receive, if they are destined to be killed, exploited or abused in anyway then there is no ethical or humane way in which to treat these animals', correct: true}, {name: '?', correct: false}],
       answer: 'It doesn’t matter what privilege or treatment the animals receive, if they are destined to be killed, exploited or abused in anyway then there is no ethical or humane way in which to treat these animals'
     },
     {
@@ -212,7 +212,7 @@
     },
     {
       lyric: 'Malzoan: What if you were stranded on a desert island?',
-      options: [{name: 'Yes kill animal so that you survive', correct: false}, {name: 'That will never happen, please be realistic!', correct: false}, {name: 'The reality is, we are not stuck on a desert island and therefore we do not need to kill and eat an animal out of necessity', correct: true}],
+      options: [{name: 'Yes, in this case you can kill animals so that you can survive', correct: false}, {name: 'That will never happen, Let`s be realistic!', correct: false}, {name: 'The reality is, we are not stuck on a desert island and therefore we do not need to kill and eat an animal out of necessity', correct: true}],
       answer: 'The reality is, we are not stuck on a desert island and therefore we do not need to kill and eat an animal out of necessity'
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       lyric: 'Hitler was a vegetarian/I once knew a vegan who wasn’t very nice',
-      options: [{name: 'Chairman Mao, Mussolini and Stalin all ate meat and committed unforgivable crimes.', correct: false}, {name: 'actually Hitler wasn’t a vegetarian, but even if he was how does that morally justify you eating animals and their secretions', correct: true}, {name: 'some of these ideas cameabout because Goebbels wanted to make Hitler seem likeable by creating comparisons between him and Gandhi, who was a vegetarian.', correct: false}, {name: 'remind them that you are vegan, not vegetarian', correct: false}],
+      options: [{name: 'Chairman Mao, Mussolini and Stalin all ate meat and committed unforgivable crimes.', correct: false}, {name: 'actually Hitler wasn’t a vegetarian, but even if he was how does that morally justify you eating animals and their secretions?', correct: true}, {name: 'some of these ideas cameabout because Goebbels wanted to make Hitler seem likeable by creating comparisons between him and Gandhi, who was a vegetarian.', correct: false}, {name: 'remind them that you are vegan, not vegetarian', correct: false}],
       answer: 'actually Hitler wasn’t a vegetarian, but even if he was how does that morally justify you eating animals and their secretions?'
     },
     {
@@ -288,7 +288,7 @@
     {
       lyric: 'It`s extreme, expensive, difficult & restrictive to be vegan.',
       options: [{name: 'It is also a misconception tha vegan food as limiting and vegan diets are expensive and elitist.', correct: false}, {name: 'Since becoming vegan I eat a much larger and more varied range of foods than I ever did before and I’m cooking with ingredients I’d never heard of.', correct: true}, {name: 'None of the Above', correct: false}],
-      answer: 'All of the Above'
+      answer: 'Since becoming vegan I eat a much larger and more varied range of foods than I ever did before and I’m cooking with ingredients I’d never heard of.'
     },
     {
       lyric: 'Going Vegan, It`s extreme.    Choose most correct answer below',
