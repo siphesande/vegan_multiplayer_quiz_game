@@ -27,7 +27,7 @@
             <div  class="column is-half right">
 
 
-              <p class="pigsbunny"style="font-size:100%;">Statistics</p>
+              <p class="pigsbunny"style="font-size:100%;">User Status/Statistics</p>
               <p class="tel-online"></p>
               <p class="pigsbunny"  style="font-size:100%;"><a class="btn btn-success">
           <span class="glyphicon glyphicon-user"></span>Player Score: {{playerdata.one.score}}
@@ -48,7 +48,7 @@
               <a v-bind:class="{ 'wronganswer': hasAnswered && !item.correct, 'correctanswer': hasAnswered && item.correct}" @click="checkAnswer(item)" v-for="(item, index) in options">{{item.name}}</a>
             </div>
           </div>
-    
+
     </div>
   </transition>
 

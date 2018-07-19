@@ -22,7 +22,7 @@
            <button type="button" class="close" data-dismiss="modal">&times;</button>
            <h4 class="modal-title" style="color:black"><span class="glyphicon glyphicon-info-sign"></span>About the Game</h4>
          </div>
-         <div class="modal-body">
+         <div class="modal-body" style="border-style: dashed; text-align: left;">
 
            <p style="color:black">Vegan Activism multiplayer quiz game is built to help vegans/plant-based people/animal rights activists to be able to test their knowleged about veganism.
            This guiz game will hellp you to answer FAQ. It will also help you to able respond to non-vegan 30 excuses for not going vegan.
@@ -33,7 +33,7 @@
 
            <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p>
          </div>
-         <div class="modal-footer">
+         <div class="modal-footer" style="text-align: left;">
             <p style="color:black"> <span class="glyphicon glyphicon-envelope"></span>:vegancomputerprogrammer@gmail.com</p>
            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
          </div>
@@ -53,7 +53,8 @@
 
     <a href="https://www.instagram.com/vegancomputerprogrammer/"><i class="fa fa-instagram"></i></a>
     <a style="font-size: 10px;">Time Left: <span id="timer" style="color:red;font-size:15px"></span></a>
-    <a ><span class="glyphicon glyphicon-play " data-toggle="modal" data-target="#exampleModal"></span></a>
+    <a ><span class="glyphicon glyphicon-play-circle" data-toggle="modal" data-target="#exampleModal"></span></a>
+
     <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
 </button> -->
