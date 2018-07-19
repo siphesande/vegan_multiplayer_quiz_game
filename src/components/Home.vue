@@ -392,7 +392,7 @@
       options: [{name: 'Car/Tranportation industry', correct: false}, {name: 'Humans', correct: false}, {name: 'Animal Agriculture Industry', correct: true}, {name: 'All of the Above', correct: false}],
       answer: 'Animal Agriculture Industry'
     },
-  
+
   ]
   export default {
     name: 'home',
@@ -654,25 +654,25 @@
 
   }
   .hamilton--inner .left{
-    display:inline-block;
-    text-align: left;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom:0px;
-    padding-bottom:0px;
-
-
-  }
-  .hamilton--inner .right{
-    display:inline-block;
-    text-align: right;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom:0px;
-    padding-bottom:0px;
-
-
-  }
+      display:inline-block;
+      float: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 0px;
+      margin-bottom:0px;
+      padding-bottom:0px;
+    }
+    .hamilton--inner .left{
+        display:inline-block;
+        float: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+      }
   .title {
     font-weight: bold;
     color: #ff66cc;
@@ -750,7 +750,8 @@
   background-color:#33cccc;
   padding:20px;
   /*height: 2px;*/
-  width:100%; /* The width is 20%, by default */
+  width:100%;
+  border-style:outset;
 }
 
 .quizGame {

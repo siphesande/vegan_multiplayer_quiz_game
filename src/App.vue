@@ -8,7 +8,7 @@
   <form class="form-inline">
     <button class="btn btn-info btn-sm" type="button" style="color:red">Veg Quiz Game</button>
     <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>Single Play</router-link></a>
-    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span>Info</button>
+    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span>About</button>
   </form>
 </div>
 <!-- </nav> -->
@@ -28,7 +28,7 @@
            This guiz game will hellp you to answer FAQ. It will also help you to able respond to non-vegan 30 excuses for not going vegan.
            It very easy to play, It's Multiple choice. Choose the most correct answer. If you choose the most correct option you earn 10 points and minus 10 for incorrect answer. It's available online, therefore you can play with anyone wherever they are in the world.
            <li style="color: red;"> You have 30 minutes to finish</li>
-           
+
            <li style="color: blue;">You can also choose to play individually</li>
 
            <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p>
@@ -52,7 +52,7 @@
 
 
     <a href="https://www.instagram.com/vegancomputerprogrammer/"><i class="fa fa-instagram"></i></a>
-    <a ><i class="fa fa-clock-o"></i><span id="timer" style="color:red;font-size:15px"></span></a>
+    <a style="font-size: 12px;">Time Left: <span id="timer" style="color:red;font-size:15px"></span></a>
     <a ><span class="glyphicon glyphicon-play " data-toggle="modal" data-target="#exampleModal"></span></a>
     <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
@@ -83,6 +83,9 @@ export default {
 
 
 <style>
+.myNav{
+  border-style:outset
+}
 .icon-bar {
     width: 100%;
     background-color: #555;

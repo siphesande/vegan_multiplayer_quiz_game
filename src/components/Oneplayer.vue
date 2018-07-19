@@ -15,14 +15,31 @@
       <!-- <div > -->
 
           <div class="columns hamilton--inner">
+            <!-- <div class="column is-half left">
+
+            <p class="pigsbunny"  style="font-size:100%;">Calf</p>
+
+
+            <img src="https://media.gettyimages.com/photos/cow-picture-id176808277?b=1&k=6&m=176808277&s=612x612&w=0&h=2YLtLdhmuXHU8sy7siqHQQCMVto_UXGaO70ttGXSgcs=" id="teamimage1" alt="Cheetah!" width="100" height="50">
+
+            </div> -->
             <div class="column is-half left">
 
+              <!-- <p class="title">Team A</p> -->
+              <p class="pigsbunny"  style="font-size:100%;">Calf</p>
+          <img src="https://media.gettyimages.com/photos/cow-picture-id176808277?b=1&k=6&m=176808277&s=612x612&w=0&h=2YLtLdhmuXHU8sy7siqHQQCMVto_UXGaO70ttGXSgcs=" id="teamimage1" alt="Cheetah!" width="100" height="50">
+              <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.one.score}}</p>
+            </div>
+            <div  class="column is-half right">
 
+              <p class="pigsbunny"style="font-size:100%;">Statistics</p>
               <p class="pigsbunny"  style="font-size:100%;"><a class="btn btn-success">
-          <span class="glyphicon glyphicon-user"></span>Player Total Score: {{playerdata.one.score}}
+          <span class="glyphicon glyphicon-user"></span>Player Score: {{playerdata.one.score}}
         </a></p>
-            <img src="https://media.gettyimages.com/photos/cow-picture-id176808277?b=1&k=6&m=176808277&s=612x612&w=0&h=2YLtLdhmuXHU8sy7siqHQQCMVto_UXGaO70ttGXSgcs=" id="teamimage1" alt="Cheetah!" width="100" height="50">
-              <!-- <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.one.score}}</p> -->
+              <progress value="20" max="100"/>
+              <p><a >Time Left: <span id="timer" style="color:red;font-size:15px"></span></a></p>
+
+
             </div>
 
           </div>
@@ -581,36 +598,34 @@
 
   }
   .hamilton--inner .left{
-    display:inline-block;
-    float: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom:0px;
-    padding-bottom:0px;
-
-
-  }
-
-  .pigsbunny {
-    float: centre;
-  }
-  .play {
-    top: 0;
-    padding-top: 0;
-    margin-top: 0;
-  }
-
-  /*.title {
+      display:inline-block;
+      float: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 0px;
+      margin-bottom:0px;
+      padding-bottom:0px;
+    }
+    .hamilton--inner .left{
+        display:inline-block;
+        float: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+      }
+  .title {
     font-weight: bold;
     color: #ff66cc;
     padding-bottom:0px;
     margin: 1px;
-  }*/
-  /*.Rise{
+  }
+  .Rise{
     color: #0066ff
-  }*/
+  }
   .hamilton--lyrics--text {
     width: 600px;
     margin: 0 auto;
@@ -649,11 +664,34 @@
   box-sizing:border-box;
 }
 
+.mult {
+  /*background-color:#a3a3c2;*/
+  padding:4px;
 
+  width:100%;
+  border-width:5px;
+  border-style:outset;
+}
 
+.faq {
+  /*background-color:#666633;*/
+  padding:2px;
 
+  width:100%; /* The width is 60%, by default */
+  border-width:5px;
+  border-style:outset
+}
+
+.destroy {
+  /*background-color:#cc99ff;*/
+  padding:4px;
+
+  width:100%;
+  border-width:5px;
+  border-style:outset/* The width is 20%, by default */
+}
 .divOfsecondPlayerLink {
-  background-color:#99ff33;
+  background-color:#33cccc;
   padding:20px;
   /*height: 2px;*/
   width:100%; /* The width is 20%, by default */
@@ -675,13 +713,14 @@
   border-width: 5px
 }
 #teamimage2{
-  border-radius: 10%;
-}
-img {
+  border-radius: 50%;
   border-style: solid;
   border-color: #00b300;
-  padding-top:1px;
   border-width: 5px
+}
+img {
+  /*border-radius: 50%;*/
+  padding-top:1px;
 }
 
 /* Use a media query to add a break point at 800px: */
@@ -705,7 +744,7 @@ img {
     border: 3px solid white;
     border-radius: 50px;
     margin: 15px auto;
-    width: 400px;
+    width: 450px;
     padding: 1px;
     text-align: center;
   }
@@ -724,41 +763,38 @@ img {
 
 @media screen and (max-width:420px) {
 
-  img {
-    height:30;
-  }
-  .play {
-    margin: 0 0 0px 0;
-    padding-top: 0px;
-    top:0;
-  }
-  a {
-    color: #fff;
-    margin: 0 0 0px 0;
-  }
-  p {
-    font-size: 1.5rem;
-    margin: 0 0 0px 0;
-  }
-  .hamilton--inner {
-    display:inline-block;
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom:0px;
-    padding-bottom:0px;
+
+
+
+  .title {
+    top :0;
 
   }
 
 
   .hamilton--inner .left{
     display:inline-block;
-    text-align: center;
-    margin: 0 0 0px 0;
+    text-align: left;
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom:0px;
     padding-bottom:0px;
+
+
+
+
+  }
+  .hamilton--inner .right{
+    display:inline-block;
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    border-style: inset;
+
+
+
   }
   .subtitle {
     padding-top: 0px;
@@ -767,36 +803,61 @@ img {
     margin-bottom: 0px;
   }
   .hamilton--header--text {
+    margin-top: 1px;
+    padding-top: 1px;
+    padding-left:0px;
+    padding-right:0px;
+
+  }
+  .container {
     margin-top: 0px;
     padding-top: 0px;
     padding-left:0px;
     padding-right:0px;
 
   }
-  /*.container {
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-left:0px;
-    padding-right:0px;
-
-  }*/
 
 
 .pigsbunny {
-
+  font-size: 5px;
   top :0;
-  bottom:0;
-  margin:0;
+  bottom: 0;
   margin-bottom: 0px;
   padding-bottom: 0px;
 
   }
+  p.pigsbunny {
+    font-size: 5px;
+    top :0;
+    bottom: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+    }
   #teamimage1 {
+    margin-top:0px;
+    padding: 0;
+  }
+  .hamilton--answers{
+    max-width: 90%;
+    margin-right: 0px;
+    padding-right:0px;
+    /*position: relative;*/
+    padding-top: 0px;
+  }
+
+  .hamilton--lyrics--text{
     margin:0;
-    top:0;
-    padding-bottom: 0;
-    height: 30;
-    border-radius: 50%;
+    padding:0;
+    max-width: 100%;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-right:0px;
+
+  }
+  .hamilton--lyrics--text p {
+    font-weight: bold;
+    text-align: center;
   }
   .hamilton--answers{
     max-width: 100%;
@@ -833,7 +894,6 @@ img {
 
 
 }
-
 
 
 </style>
