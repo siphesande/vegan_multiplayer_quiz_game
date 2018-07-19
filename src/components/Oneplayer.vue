@@ -34,7 +34,7 @@
             </a>
 
           </p>
-              <a style="font-size: 15px;">Time Left: <span id="timer" style="color:red;font-size:15px"></span></a>
+           <i class="fa fa-question-circle"></i>&nbspQuestions<span class="glyphicon glyphicon-arrow-down"></span>
 
 
 
