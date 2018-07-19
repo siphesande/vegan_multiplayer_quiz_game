@@ -6,9 +6,10 @@
     <!-- <nav class="navbar navbar-expand-sm navbar-light bg-primary"> -->
   <div class="myNav" style="background-color:#b3b3cc;">
   <form class="form-inline">
-    <button class="btn btn-info btn-sm" type="button" style="color:red">Veg Quiz Game</button>
-    <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>Single Play</router-link></a>
-    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span>About</button>
+    <!-- <button class="btn btn-info btn-sm" type="button"> <a class="active" href="/"><i class="fa fa-group"></i></a> multiplayer</button> -->
+    <a href=""><router-link to="/" class="btn btn-info btn-sm"> <i class="fa fa-group"></i>&nbsp Multi-Play</router-link></a>
+    <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>&nbsp Single-Play</router-link></a>
+    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span> About</button>
   </form>
 </div>
 <!-- </nav> -->

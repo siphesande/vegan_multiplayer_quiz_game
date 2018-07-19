@@ -18,6 +18,7 @@
       <div class="divOfsecondPlayerLink">
         <li class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></li>
         <p>& Game will start soon! You're Team A</p>
+        
       </div>
 
 
@@ -806,6 +807,29 @@ img {
 }
 
 @media screen and (max-width:800px) {
+  .hamilton--inner .left{
+    display:inline-block;
+
+    margin: 0px;
+    padding-top: 0px;
+    /*margin-bottom:0px;
+    padding-bottom:0px;*/
+    top:0px;
+
+
+}
+  .hamilton--inner .right{
+    display:inline-block;
+
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+
+
+
+
+  }
   .quizGame {
 
     width:80%; /* The width is 20%, by default */

@@ -19,20 +19,22 @@
             <div class="column is-half left">
 
 
-              <p class="pigsbunny"  style="font-size:100%;">Calf</p>
+              <!-- <p class="pigsbunny"  style="font-size:100%; text-align:center;">Calf</p> -->
              <img src="https://media.gettyimages.com/photos/cow-picture-id176808277?b=1&k=6&m=176808277&s=612x612&w=0&h=2YLtLdhmuXHU8sy7siqHQQCMVto_UXGaO70ttGXSgcs=" id="teamimage1" alt="Cheetah!" width="100" height="50">
                <p class="subtitle" style="font-size:110%;">Total Score: {{playerdata.one.score}}</p>
 
             </div>
-            <div  class="column is-half right">
+            <div  class="column is-half right" style="background-color:#00cc00; text-align:center; ">
 
 
-              <p class="pigsbunny"style="font-size:100%;">User Status/Statistics</p>
-              <p class="tel-online"></p>
+              <p class="pigsbunny"style="font-size:100%;">User/Player</p>
+
               <p class="pigsbunny"  style="font-size:100%;"><a class="btn btn-success">
-          <span class="glyphicon glyphicon-user"></span>Player Score: {{playerdata.one.score}}
-        </a></p>
-              <progress value="20" max="100"/>
+          <span class="glyphicon glyphicon-user"></span>&nbspStatus: Online
+            </a>
+
+          </p>
+              <a style="font-size: 15px;">Time Left: <span id="timer" style="color:red;font-size:15px"></span></a>
 
 
 
@@ -488,34 +490,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.tel-online {
-width: 10px;
-height: 10px;
-float: center;
-background: #00a312;
-position: relative;
-border: 8px solid white;
-margin-left: 20px;
-border-radius:50% 50%;
-}
-.tel-online:after {
-content: 'online';
-position: absolute;
-top: -15px;
-left: -15px;
-right: -15px;
-bottom: -15px;
-background: #00a312;
-z-index: -1;
-border-radius:50%;
--webkit-animation: pulsate 1s ease-out;
--webkit-animation-iteration-count: infinite;
-}
-@-webkit-keyframes pulsate {
-0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-50% {opacity: 1.0;}
-100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
-}
 
 
   .home {
@@ -751,6 +725,7 @@ img {
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:600px) {
 
+
     .hamilton--lyrics--text{
       margin:0;
       padding:0;
@@ -777,6 +752,29 @@ img {
 }
 
 @media screen and (max-width:800px) {
+  .hamilton--inner .left{
+    display:inline-block;
+
+    margin: 0px;
+    padding-top: 0px;
+    /*margin-bottom:0px;
+    padding-bottom:0px;*/
+    top:0px;
+
+    border-style: inset;
+}
+  .hamilton--inner .right{
+    display:inline-block;
+
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+
+
+
+
+  }
   .quizGame {
 
     width:80%; /* The width is 20%, by default */
