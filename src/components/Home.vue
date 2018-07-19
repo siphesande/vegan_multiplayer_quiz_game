@@ -40,12 +40,13 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active" >
-              <img src="/static/vegan.png" alt="Los Angeles" style="width:100%; border-radius: 10%; ">
+              <img src="/static/output.gif" alt="Los Angeles" style="width:100%; border-radius: 50%; ">
             </div>
 
             <div class="item">
@@ -57,6 +58,9 @@
             </div>
             <div class="item">
               <img src="/static/act.jpg" alt="AV" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
+            </div>
+            <div class="item">
+              <img src="/static/output.gif" alt="AV" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
             </div>
           </div>
 
