@@ -18,7 +18,7 @@
       <div class="divOfsecondPlayerLink">
         <li class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></li>
         <p>& Game will start soon! You're Team A</p>
-        
+
       </div>
 
 
@@ -186,7 +186,7 @@
       answer: 'Nothing humane killing someone that deos not want to die'
     },
     {
-      lyric: 'Animals are With us not ___',
+      lyric: 'Animals are here with us not ___',
       options: [{name: 'for meat', correct: false}, {name: 'nature', correct: false}, {name: 'to be killed', correct: false}, {name: 'for us', correct: true}],
       answer: 'for us'
     },
@@ -257,11 +257,11 @@
     },
     {
       lyric:  'Carnist: It is the food chain',
-      options: [{name: 'The food chains in nature exist because they have to. The predator needs to kill the prey to survive. We don’t have to kill anyone to live', correct: true}, {name: 'Who put us the top of food the chain?', correct: false}, {name: 'Humans do not have to kill animals because we are herbevores', correct: false}],
+      options: [{name: 'The food chains in nature exist because they have to. The predator needs to kill the prey to survive. We don’t have to kill anyone to live', correct: true}, {name: 'Who put us at the top of food the chain?', correct: false}, {name: 'Humans do not have to kill animals because we are herbevores', correct: false}],
       answer: 'The food chains in nature exist because they have to. The predator needs to kill the prey to survive. We don’t have to kill anyone to live'
     },
     {
-      lyric: "We're more intelligent than animals",
+      lyric: 'We`re more intelligent than animals',
       options: [{name: 'Does intelligence define worth of life?”', correct: false}, {name: 'Is your life worth more than someone who has learning difficulties?', correct: false}, {name: 'If intelligence equals dominance does that mean that anyone with a high IQ can do what they want to someone with a lower IQ?”', correct: false}, {name: 'Worth of life can not be detected by the nortion of intelligence by instead is equel among all living beings', correct: false}, {name: 'All of the above', correct: true}],
       answer: 'All of the above'
     },
@@ -312,7 +312,7 @@
     },
     {
       lyric: 'Non-vegan: It is the circle of life',
-      options: [{name: 'Is it also the circle of life when People kill People ', correct: false}, {name: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?', correct: true}, {name: 'People have been killing one another Since the beginning of times deos that make it moral', correct: false}],
+      options: [{name: 'Is it also the circle of life when People kill People?', correct: false}, {name: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?', correct: true}, {name: 'People have been killing one another Since the beginning of times deos that make it moral', correct: false}],
       answer: 'by the logic that we are morally justified to slaughter animals because all life dies anyway, would it therefore be acceptable for me to cut the throat of a dog?'
     },
     {
@@ -322,12 +322,12 @@
     },
     {
       lyric: 'Soya farming is destroying the environment',
-      options: [{name: 'you’re right, soya farming is destructive for the environment, but did you know that over 85% of the soya grown is fed to livestock animals? It’s because of animal agriculture that soya is currently so destructive.', correct: true}, {name: 'Non vegans also eat soy/soya', correct: false}, {name: 'Soya is mostly eaten by Vegans', correct: false}],
+      options: [{name: 'you’re right, soya farming is destructive for the environment, but did you know that over 85% of the soya grown is fed to livestock animals? It’s because of animal agriculture that soya is currently so destructive.', correct: true}, {name: 'Non-vegan also eat soy/soya', correct: false}, {name: 'Soya is mostly eaten by Vegans', correct: false}],
       answer: 'you’re right, soya farming is destructive for the environment, but did you know that over 85% of the soya grown is fed to livestock animals? It’s because of animal agriculture that soya is currently so destructive.'
     },
     {
       lyric: 'Omnivores: We‘re omnivores with Canine teeth',
-      options: [{name: 'Our Canine teeth are smaller', correct: false}, {name: 'Yes we have evolved and now we are omnivores', correct: false}, {name: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.', correct: true}, {name: 'Canine teeth proves that humans are Carnivore and therefore should eat animals', correct: false}],
+      options: [{name: 'Our Canine teeth are smaller', correct: false}, {name: 'Yes, we have evolved and now we are omnivores', correct: false}, {name: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.', correct: true}, {name: 'Canine teeth proves that humans are Carnivore and therefore should eat animals', correct: false}],
       answer: 'if we are natural omnivores, which means that by default we cansurvive only on plants, how do we then morally justify taking the life of an animal as by your own admission it is unnecessary?.'
     },
     {
@@ -356,7 +356,7 @@
       answer: 'B12 is made by anaerobic microorganisms. Anaerobic bacteria are common in the gastrointestinal tract of animals.Meat eater also need B12'
     },
     {
-      lyric: 'What are Earthlings',
+      lyric: 'What are Earthlings?',
       options: [{name: 'Earthlings are non human animals', correct: false}, {name: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.', correct: true}, {name: 'Earthlings are people from Mars or Aliens', correct: false}, {name: 'None of the Above', correct: false}],
       answer: 'Since we all inhabit the Earth, all of us are considered earthlings. There is no sexism, no racism, or speciesism in the term earthling. It encompasses each and every one of us, warm or cold-blooded, mammal, vertebrae or invertebrate, bird, reptile, amphibian, fish, and human alike.'
     },
@@ -389,7 +389,7 @@
       lyric: 'What is the major cause of global warming?     (Choose the most correct below)',
       options: [{name: 'Car/Tranportation industry', correct: false}, {name: 'Humans', correct: false}, {name: 'Animal Agriculture Industry', correct: true}, {name: 'All of the Above', correct: false}],
       answer: 'Animal Agriculture Industry'
-    },
+    }
 
   ]
   export default {
