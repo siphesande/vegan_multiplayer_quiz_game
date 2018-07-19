@@ -9,14 +9,7 @@
         <li>Play with Vegans anywhere they are in the world</li>
       </div>
 
-      <!-- <div class="faq">
 
-        <audio controls>
-
-      <source src="/static/Dominion.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-     </audio>
-      </div> -->
 
       <div class="destroy">
        <li>RESPOND TO 30 NON-VEGAN EXCUSES</li>
@@ -31,9 +24,9 @@
       </div>
 
 
-      <div class="container">
+      <div class="container" >
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" >
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -44,7 +37,7 @@
           </ol>
 
           <!-- Wrapper for slides -->
-          <div class="carousel-inner">
+          <div class="carousel-inner" >
             <div class="item active" >
               <img src="/static/output.gif" alt="Los Angeles" style="width:100%; border-radius: 50%; ">
             </div>
@@ -54,13 +47,13 @@
             </div>
 
             <div class="item">
-              <img src="/static/domi.jpg" alt="New york" style="width:100%; border-style: dotted; border-color: #ff3300; border-width: 5px;">
+              <img src="/static/output.gif" alt="New york" style="width:100%; border-style: dotted; border-color: #ff3300; border-width: 5px;">
             </div>
             <div class="item">
               <img src="/static/act.jpg" alt="AV" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
             </div>
             <div class="item">
-              <img src="/static/output.gif" alt="AV" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px;">
+              <img src="/static/output2.gif" alt="domi" style="width:100%; border-style: dashed; border-color: #ff66ff; border-width: 5px; border-radius: 50%;">
             </div>
           </div>
 
