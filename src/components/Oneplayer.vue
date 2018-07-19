@@ -15,14 +15,7 @@
       <!-- <div > -->
 
           <div class="columns hamilton--inner">
-            <!-- <div class="column is-half left">
 
-            <p class="pigsbunny"  style="font-size:100%;">Calf</p>
-
-
-            <img src="https://media.gettyimages.com/photos/cow-picture-id176808277?b=1&k=6&m=176808277&s=612x612&w=0&h=2YLtLdhmuXHU8sy7siqHQQCMVto_UXGaO70ttGXSgcs=" id="teamimage1" alt="Cheetah!" width="100" height="50">
-
-            </div> -->
             <div class="column is-half left">
 
 
@@ -40,7 +33,7 @@
           <span class="glyphicon glyphicon-user"></span>Player Score: {{playerdata.one.score}}
         </a></p>
               <progress value="20" max="100"/>
-              <!-- <p><a >Time Left: <span id="timer" style="color:red;font-size:15px"></span></a></p> -->
+
 
 
 
@@ -55,8 +48,7 @@
               <a v-bind:class="{ 'wronganswer': hasAnswered && !item.correct, 'correctanswer': hasAnswered && item.correct}" @click="checkAnswer(item)" v-for="(item, index) in options">{{item.name}}</a>
             </div>
           </div>
-        <!-- </div> -->
-      <!-- </div> -->
+    
     </div>
   </transition>
 
