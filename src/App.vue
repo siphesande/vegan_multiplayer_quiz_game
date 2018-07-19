@@ -52,7 +52,7 @@
 
 
     <a href="https://www.instagram.com/vegancomputerprogrammer/"><i class="fa fa-instagram"></i></a>
-    <a style="font-size: 12px;">Time Left: <span id="timer" style="color:red;font-size:15px"></span></a>
+    <a style="font-size: 10px;">Time Left: <span id="timer" style="color:red;font-size:15px"></span></a>
     <a ><span class="glyphicon glyphicon-play " data-toggle="modal" data-target="#exampleModal"></span></a>
     <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
