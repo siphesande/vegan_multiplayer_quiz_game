@@ -9,7 +9,7 @@
     <!-- <button class="btn btn-info btn-sm" type="button"> <a class="active" href="/"><i class="fa fa-group"></i></a> multiplayer</button> -->
     <a class="btn btn-info btn-sm"  href="/"> <i class="fa fa-group"></i>&nbsp Multi-Play</a>
     <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>&nbsp Single-Play</router-link></a>
-    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span> About</button>
+    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"> About</button>
   </form>
 </div>
 <!-- </nav> -->
@@ -28,11 +28,18 @@
            <p style="color:black; text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;">Vegan Activism multiplayer quiz game is built to help vegans/plant-based people/animal rights activists to be able to test their knowleged of veganism (Animal, Environment and Health) .
            This guiz game will hellp you to answer FAQ. It will also help you to able respond to non-vegan 30 excuses for not going vegan.
            It very easy to play, It's Multiple choice. Choose the most correct answer. If you choose the most correct option you earn 10 points and minus 10 for incorrect answer. It's available online, therefore you can play with anyone wherever they are in the world.
-           <li style="color: red;"> You have 30 minutes to finish</li>
+         </p>
+           <!-- <li style="color: red;"> You have 30 minutes to finish</li>
 
            <li style="color: blue;">You can also choose to play individually</li>
 
-           <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p>
+           <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p> -->
+           <ul class="list-group">
+             <li class="list-group-item list-group-item-success">You have 30 minutes to finish</li>
+             <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+             <li class="list-group-item list-group-item-warning">You can also choose to play individually</li>
+             <li class="list-group-item list-group-item-danger">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li>
+         </ul>
          </div>
          <div class="modal-footer" style="text-align: left;">
             <p style="color:black; text-shadow: 2px 2px 5px red;"> <span class="glyphicon glyphicon-envelope"></span>:vegancomputerprogrammer@gmail.com</p>
