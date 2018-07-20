@@ -548,7 +548,7 @@
 <style scoped>
 .animate {
 
-
+   border-radius: 50%;
    -webkit-animation: animate_bg 5s;
    animation: animate_bg 5s;
    -webkit-animation-iteration-count: infinite;
@@ -557,20 +557,20 @@
 
 @keyframes animate_bg {
    0%   {background:#ff9933;}
-   50%  {background:green;}
-   100% {background:blue;}
+   50%  {background:#ffff00;}
+   100% {background:#00ffff;}
 }
 
 @keyframes animate_bg {
    0%   {background:#ff9933;}
-   50%  {background:green;}
-   100% {background:blue;}
+   50%  {background:#ffff00;}
+   100% {background:#00ffff;}
 }
 
 @-webkit-keyframes animate_bg {
    0%   {background:#ff9933;}
-   50%  {background:green;}
-   100% {background:blue;}
+   50%  {background:#ffff00;}
+   100% {background:#00ffff;}
 }
 
   .home {
