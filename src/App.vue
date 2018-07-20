@@ -25,7 +25,7 @@
          </div>
          <div class="modal-body" style="border-style: dashed; text-align: left;">
 
-           <p style="color:black">Vegan Activism multiplayer quiz game is built to help vegans/plant-based people/animal rights activists to be able to test their knowleged of veganism (Animal, Environment and Health) .
+           <p style="color:black; text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;">Vegan Activism multiplayer quiz game is built to help vegans/plant-based people/animal rights activists to be able to test their knowleged of veganism (Animal, Environment and Health) .
            This guiz game will hellp you to answer FAQ. It will also help you to able respond to non-vegan 30 excuses for not going vegan.
            It very easy to play, It's Multiple choice. Choose the most correct answer. If you choose the most correct option you earn 10 points and minus 10 for incorrect answer. It's available online, therefore you can play with anyone wherever they are in the world.
            <li style="color: red;"> You have 30 minutes to finish</li>
@@ -35,7 +35,7 @@
            <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p>
          </div>
          <div class="modal-footer" style="text-align: left;">
-            <p style="color:black"> <span class="glyphicon glyphicon-envelope"></span>:vegancomputerprogrammer@gmail.com</p>
+            <p style="color:black; text-shadow: 2px 2px 5px red;"> <span class="glyphicon glyphicon-envelope"></span>:vegancomputerprogrammer@gmail.com</p>
            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
          </div>
        </div>
