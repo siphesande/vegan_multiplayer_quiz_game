@@ -30,7 +30,7 @@
               <p class="pigsbunny"style="font-size:100%;">User/Player</p>
 
               <p class="pigsbunny"  style="font-size:100%;"><a class="btn btn-success">
-          <span class="glyphicon glyphicon-user"></span>&nbspStatus: Online
+            <span class="glyphicon glyphicon-user"></span>&nbspStatus: Online
             </a>
 
           </p>
@@ -490,6 +490,33 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+/*.animate {
+    height: 200px;
+    width: 400px;
+    border: 1px solid #000;
+    -webkit-animation: animate_bg 5s;
+    animation: animate_bg 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {background:red;}
+    50%  {background:green;}
+    100% {background:blue;}
+}
+
+@keyframes animate_bg {
+    0%   {background:red;}
+    50%  {background:green;}
+    100% {background:blue;}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:red;}
+    50%  {background:green;}
+    100% {background:blue;}
+}*/
 
 
   .home {
@@ -607,7 +634,7 @@
       padding-bottom:0px;
 
     }
-    .hamilton--inner .left{
+    .hamilton--inner .right{
         display:inline-block;
         float: center;
         justify-content: center;
@@ -616,6 +643,28 @@
         padding-top: 0px;
         margin-bottom:0px;
         padding-bottom:0px;
+        -webkit-animation: animate_bg 5s;
+       animation: animate_bg 5s;
+       -webkit-animation-iteration-count: infinite;
+       animation-iteration-count: infinite;
+      }
+
+      @keyframes animate_bg {
+          0%   {background:#00ff00;}
+          50%  {background:white;}
+          100% {background:#00ff00;}
+      }
+
+      @keyframes animate_bg {
+          0%   {background:#00ff00;}
+          50%  {background:white;}
+          100% {background:#00ff00;}
+      }
+
+      @-webkit-keyframes animate_bg {
+          0%   {background:#00ff00;}
+          50%  {background:white;}
+          100% {background:#00ff00;}
       }
   .title {
     font-weight: bold;

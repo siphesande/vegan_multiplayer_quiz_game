@@ -17,7 +17,7 @@
 
       <div class="divOfsecondPlayerLink">
         <li class="secondplayerLink">Invite a second player by sending them this link:<em> {{url}}</em></li>
-        <p>& Game will start soon! You're Team A</p>
+        <p class="animate">& Game will start soon! You're Team A</p>
 
       </div>
 
@@ -546,6 +546,32 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.animate {
+
+
+   -webkit-animation: animate_bg 5s;
+   animation: animate_bg 5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+   0%   {background:#ff9933;}
+   50%  {background:green;}
+   100% {background:blue;}
+}
+
+@keyframes animate_bg {
+   0%   {background:#ff9933;}
+   50%  {background:green;}
+   100% {background:blue;}
+}
+
+@-webkit-keyframes animate_bg {
+   0%   {background:#ff9933;}
+   50%  {background:green;}
+   100% {background:blue;}
+}
 
   .home {
     /*padding-top: 20px;*/
@@ -752,7 +778,7 @@
   /*height: 2px;*/
   width:100%;
   border-style:outset;
-  
+
 }
 
 .quizGame {
