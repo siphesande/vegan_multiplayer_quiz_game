@@ -44,7 +44,7 @@
           </div>
 
           <div class="hamilton--lyrics--text">
-            <p>{{question.lyric}}
+            <p style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">{{question.lyric}}
             </p>
             <div class="hamilton--answers">
               <a v-bind:class="{ 'wronganswer': hasAnswered && !item.correct, 'correctanswer': hasAnswered && item.correct}" @click="checkAnswer(item)" v-for="(item, index) in options">{{item.name}}</a>

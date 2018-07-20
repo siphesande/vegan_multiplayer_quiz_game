@@ -725,6 +725,7 @@
   width:100%;
   border-width:5px;
   border-style:outset;
+  text-shadow: 2px 2px red;
 }
 
 .faq {
@@ -742,7 +743,8 @@
 
   width:100%;
   border-width:5px;
-  border-style:outset/* The width is 20%, by default */
+  border-style:outset;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .divOfsecondPlayerLink {
   background-color:#33cccc;
@@ -750,6 +752,7 @@
   /*height: 2px;*/
   width:100%;
   border-style:outset;
+  
 }
 
 .quizGame {
