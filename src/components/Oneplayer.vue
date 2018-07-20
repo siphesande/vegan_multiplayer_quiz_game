@@ -27,7 +27,7 @@
             <div  class="column is-half right" style="background-color:#00cc00; text-align:center; ">
 
 
-              <p class="pigsbunny"style="font-size:100%;">User/Player</p>
+              <p class="pigsbunny"style="font-size:100%; text-shadow: 2px 2px red;">User/Player</p>
 
               <p class="pigsbunny"  style="font-size:100%;"><a class="btn btn-success">
             <span class="glyphicon glyphicon-user"></span>&nbspStatus: Online

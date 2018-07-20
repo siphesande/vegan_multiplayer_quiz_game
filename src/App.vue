@@ -7,9 +7,9 @@
   <div class="myNav" style="background-color:#b3b3cc; ">
   <form class="form-inline">
     <!-- <button class="btn btn-info btn-sm" type="button"> <a class="active" href="/"><i class="fa fa-group"></i></a> multiplayer</button> -->
-    <a class="btn btn-info btn-sm"  href="/"> <i class="fa fa-group"></i>&nbsp Multi-Play</a>
-    <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>&nbsp Single-Play</router-link></a>
-    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"> About</button>
+    <a class="btn btn-info btn-sm" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;"  href="/"> <i class="fa fa-group"></i>&nbsp Multi-Play</a>
+    <a href="#oneplayer" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;" ><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>&nbsp Single-Play</router-link></a>
+    <button type="button" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"> About</button>
   </form>
 </div>
 <!-- </nav> -->
