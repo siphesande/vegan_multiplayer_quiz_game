@@ -4,10 +4,10 @@
 
 
     <!-- <nav class="navbar navbar-expand-sm navbar-light bg-primary"> -->
-  <div class="myNav" style="background-color:#b3b3cc;">
+  <div class="myNav" style="background-color:#b3b3cc; ">
   <form class="form-inline">
     <!-- <button class="btn btn-info btn-sm" type="button"> <a class="active" href="/"><i class="fa fa-group"></i></a> multiplayer</button> -->
-    <a href=""><router-link to="/" class="btn btn-info btn-sm"> <i class="fa fa-group"></i>&nbsp Multi-Play</router-link></a>
+    <a class="btn btn-info btn-sm"  href="/"> <i class="fa fa-group"></i>&nbsp Multi-Play</a>
     <a href="#oneplayer"><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>&nbsp Single-Play</router-link></a>
     <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span> About</button>
   </form>
@@ -47,7 +47,7 @@
 
 
 
-<div class="footer" style="background-color:#00b3b3">
+<div class="footer" style="background-color:#00b3b3; border-style:outset;">
   <div class="icon-bar">
     <a class="active" href="/"><i class="fa fa-home"></i></a>
 
@@ -86,7 +86,7 @@ export default {
 
 <style>
 .myNav{
-  border-style:outset
+  border-style:outset;
 }
 .icon-bar {
     width: 100%;
@@ -134,6 +134,7 @@ export default {
     max-height: 900px;
     /*max-width: 100%;*/
     /*float: centre;*/
+
 
   }
 

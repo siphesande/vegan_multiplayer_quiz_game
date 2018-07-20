@@ -605,6 +605,7 @@
       padding-top: 0px;
       margin-bottom:0px;
       padding-bottom:0px;
+
     }
     .hamilton--inner .left{
         display:inline-block;
@@ -798,7 +799,9 @@ img {
     /*margin-bottom:0px;
     padding-bottom:0px;*/
     top:0px;
+    border-radius: 10%;
     float: top;
+    border-color: green;
     border-style: inset;
 }
   .hamilton--inner .right{
@@ -808,6 +811,8 @@ img {
     padding-top: 0px;
     margin-bottom:0px;
     padding-bottom:0px;
+    border-radius: 10%;
+    border-color: green;
     border-style: inset;
 
 
