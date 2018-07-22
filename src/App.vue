@@ -36,7 +36,7 @@
            <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p> -->
            <ul class="list-group">
              <li class="list-group-item list-group-item-success">You have 30 minutes to finish</li>
-             <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+            
              <li class="list-group-item list-group-item-warning">You can also choose to play individually</li>
              <li class="list-group-item list-group-item-danger">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li>
          </ul>
