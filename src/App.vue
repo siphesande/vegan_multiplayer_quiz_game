@@ -10,6 +10,8 @@
     <a class="btn btn-info btn-sm" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;"  href="/"> <i class="fa fa-group"></i>&nbsp Multi-Play</a>
     <a href="#oneplayer" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;" ><router-link to="/oneplayer" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-user"></span><span class="glyphicons glyphicons-envelope"></span>&nbsp Single-Play</router-link></a>
     <button type="button" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"> About</button>
+    <a href="#more" style="text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;" ><router-link to="/more" class="btn btn-info btn-sm">More</router-link></a>
+
   </form>
 </div>
 <!-- </nav> -->
@@ -36,7 +38,7 @@
            <li style="color: black;">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li></p> -->
            <ul class="list-group">
              <li class="list-group-item list-group-item-success">You have 30 minutes to finish</li>
-            
+
              <li class="list-group-item list-group-item-warning">You can also choose to play individually</li>
              <li class="list-group-item list-group-item-danger">Most of the Questions and Answers are taken from <a href="https://www.earthlinged.com/ebook/">Earthlings Ed (e-book).</a></li>
          </ul>
